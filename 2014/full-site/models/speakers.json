@@ -1,0 +1,153 @@
+{
+  "title": "Speakers",
+  "speaker": [
+    {
+      "name": "Paul Boag",
+      "organisations": [
+        [
+          {
+            "name": "Headscape",
+            "url": "http://www.headscape.co.uk"
+          },
+          {
+            "name": "Boagworld",
+            "url": "http://www.boagworld.com"
+          }
+        ]
+      ],
+      "photo": "paul-boag.jpg",
+      "twitter": "boagworld",
+      "description": "<p>Paul Boag has been working with the web since 1994. He is now co-founder of the digital agency Headscape, where he works closely with clients to establish their web strategy.</p><p>Paul is a prolific writer having written Digital Adaptation, Website Owners Manual, Client Centric Web Design and numerous articles for publications such as .net magazine, Smashing Magazine and the econsultancy.com.</p><p>Paul also speaks extensively on various aspects of web design both at conferences across the world and on his award winning web design podcast boagworld.</p>",
+      "bookmark_link": "paul-boag",
+      "talk_title": "Digital Adaptation: Time to Untie Your Hands",
+      "talk_description": "<p>Do you feel like you are doing your job with one hand tied behind your back? Are you frustrated by company practices that are horribly antiquated and inappropriate for the digital world? Does your boss or client fail to understand the unique characteristics of the web? If so, you are not alone. The majority of traditional businesses are struggling to adapt to the digital economy and need your help even if they don't realize it.</p><p>In his talk, Paul explains why this is, and what we (as the web community) can do about it. He highlights that to build a great website, we have to be the catalyst for organizational change and recommends ways to start make it happening.</p><p>Things you will learn include</p><ul><li>Why so many organisations are failing to adapt</li><li>Why it falls to you to instigate the change in company culture</li><li>Practical ways of instigating change</li><li> Why your primary job isn't to build websites, despite what your boss or client might think</li></ul>",
+      "talk_time": "09:30am"
+    },
+    {
+      "name": "Rachel Andrew",
+      "organisations": [
+        [
+          {
+            "name": "edgeofmyseat.com",
+            "url": "http://edgeofmyseat.com"
+          },
+          {
+            "name": "Perch",
+            "url": "http://www.grabaperch.com"
+          }
+        ]
+      ],
+      "photo": "rachel-andrew.jpg",
+      "twitter": "rachelandrew",
+      "description": "<p>Rachel Andrew is a web developer, writer, speaker and one half of edgeofmyseat.com - the company behind the CMS Perch. She has been working on the web since the late 90s and running her own company since 2001.</p><p>When not working on her own product, Rachel enjoys helping other people transition from consultancy and client services to profitable product businesses - without needing to seek investment or risk everything by “doing a startup”.</p>",
+      "bookmark_link": "rachel-andrew",
+      "talk_title":"We're not \"Doing a Startup\"",
+      "talk_description":"<p>You would love to launch your own product but you have a nice life, a family, a mortgage and don’t want to buy into putting it all on the line chasing some startup dream. This presentation is about the practical steps developers and designers can take to get from idea to launch with a bootstrapped side project – no sleeping in the office required.</p>"
+    },
+    {
+      "name": "Amy Thibodeau",
+      "organisations": [
+        [
+          {
+            "name": "Facebook",
+            "url": "https://www.facebook.com/amy.thibodeau"
+          }
+        ]
+      ],
+      "photo": "amy-thibodeau.jpg",
+      "twitter": "amythibodeau",
+      "description": "<p>Amy Thibodeau is a writer and content strategist at Facebook. Before relocating to the London office this past November, she managed the Facebook content strategy team that focuses on making interfaces for business easier to use and understand. Now she works on a range of different projects with an amazing team of UK-based product managers and engineers</p><p>In her spare time, Amy dabbles in photography, occasionally writes about language for The Guardian and collects ephemera on her blog. Before joining Facebook, she travelled around the world for a year doing personal projects and consulting work through Contentini, a boutique web agency she co-founded.</p>",
+      "bookmark_link": "amy-thibodeau",
+      "talk_title":"Designing with words: The role of content strategy in product development",
+      "talk_description":"<p>We’ll focus on the often neglected words that help shape your user experience and discuss how to approach interface content as a design practice. The goal? To help you build better experiences that warm the cockles of your users' hearts while encouraging them to tap, click and stay engaged. </p>"
+    },
+    {
+      "name": "Dan Donald",
+      "organisations": [
+        [
+          {
+            "name": "McCann",
+            "url": "http://www.mccannmanchester.com/"
+          }
+        ]
+      ],
+      "photo": "dan-donald.jpg",
+      "twitter": "hereinthehive",
+      "description": "<p>Dan is currently Front-end & Interaction Lead at McCann Manchester, after 2 years at BBC Sport.</p> <p>Like most of us he's got a stack of side projects he'll never get to. He's also one of the writes for The Pastry Box this year. When not doing web stuff he makes noise in his band Mark of 1000 Evils.</p>",
+      "bookmark_link": "dan-donald",
+      "talk_title": "Designing Evolution",
+      "talk_description": "<p>We've worked with responsive design for a few years and explored what we can do with the flexibility it provides but what happens when we start to explore 'element queries'?</p> <p>When modules within a site can look at both the browser and it's parent element to make layout choices, that opens up a new level of curiosity and complexity. There's many ways of making this work now but is this something we want and can we see browsers implementing it?.</p>"
+      },
+      {
+      "name": "Andy Davies",
+      "organisations": [
+        [
+          {
+            "name": "andydavies.me",
+            "url": "http://andydavies.me"
+          }
+        ]
+      ],
+      "photo": "andy-davies.jpg",
+      "twitter": "andydavies",
+      "description": "<p>Andy is Associate Director for Web Performance at NCC Group, where he helps clients to measure and improve the performance of their sites.</p><p>He recently wrote the The Pocket Guide to Web Performance for Five Simple Steps, and is currently contributing to 'Using WebPagetest' for O'Reilly.</p>",
+      "bookmark_link": "andy-davies",
+      "talk_title": "HTTP/2 - What it’s all about then?",
+      "talk_description": "<p>We’re used to an ever changing web, browsers evolve to include new HTML elements, new CSS properties and new APIs, but HTTP, the way our pages get from the server to our visitor’s browser hasn’t changed much since it was created in the 1990’s. That is until now - one of the IETF groups has been working on an update to HTTP and it’s due to be submitted as a proposed standard soon.</p><p>In this session Andy will cover some of the drawbacks of HTTP/1.1, how HTTP/2 is different to it’s predecessors and what it means for us as developers and site operators - is it just for large sites or can smaller sites benefit too?</p>"
+      },
+      {
+      "name": "Andy Yates",
+      "organisations": [
+        [
+          {
+            "name": "Buffer",
+            "url": "https://bufferapp.com"
+          }
+        ]
+      ],
+      "photo": "andy-yates.jpg",
+      "twitter": "ay8s",
+      "description": "<p>Andy is the iOS Developer at Buffer. Originally from Birmingham, he is now based in San Francisco working alongside part of the other Buffer team. At Buffer he builds out the iOS app along with SDK's for other iOS apps to use to easily offer sharing to Buffer. Allowing people to schedule posts from popular apps such as Pocket and Feedly.</p><p>Alongside Buffer he keeps his finger on the pulse building other iOS apps such as Magic Bean an iOS and Mac app for deploying sites through Beanstalk (beanstalkapp.com) and also developed a stop motion interactive cartoon called Globbert.</p>",
+      "bookmark_link": "andy-yates",
+      "talk_title": "What to do when you get hacked?",
+      "talk_description": "<p>Last October the team at Buffer discovered they had been hacked & were posting spam on their users behalf, including 30,000+ Facebook accounts. Andy will walk through what happened that weekend, detailing what we did right & wrong and some steps to take if you ever face a hack.</p>",
+      "talk_time": "09:30am"
+      },
+      {
+      "name": "Dan Goodwin",
+      "organisations": [
+        [
+          {
+            "name": "fffunction",
+            "url": "http://fffunction.co/"
+          }
+        ]
+      ],
+      "photo": "dan-goodwin.jpg",
+      "twitter": "bouncingdan",
+      "description": "<p>Dan is a user experience designer working at fffunction, a design agency in the South West of the UK.</p><p>With a background of fifteen years experience in agency and in-house software and web development, he is an all-rounder with strong technical and people skills in addition to user experience. He loves user research and bringing users and empathy for them into every step of a project.</p><p>Dan loves the sea and gets in it or near it whenever he gets the chance. He likes good coffee, good beer, and good and bad flapjacks.</p>",
+      "bookmark_link": "dan-goodwin",
+      "talk_title": "The UX of Things",
+      "talk_description": "<p>Most have us have accepted that we don't just work with isolated bits of code, software and interfaces any more. Things like product packaging, marketing copy for app stores, physical products that interface with apps, or tone of voice guidelines for people who answer the phone are all part of user experience and they all matter a lot. For those of us who used to just sketch, design and build interfaces for sites and apps and but who now might end up working, for example, on something which affects people's comfort or safety it can (and should) feel like quite a responsibility.</p><p>Dan will talk through some real world things that have happened, some things that have gone wrong and ponder about how we can try to do things better. He won't have all the answers (probably not any of them in fact) but hopefully you'll be better prepared to face some of these responsibilities and help others you're working with face them too.</p><p>Also, just so you're well prepared, he will specifically say \"Internet of Things\" at some point.</p>"
+      },
+      {
+      "name": "Sébastien Cevey ",
+      "organisations": [
+        [
+          {
+            "name": "The Guardian",
+            "url": "http://www.theguardian.com/uk"
+          }
+        ]
+      ],
+      "photo": "sebastien-cevey.jpg",
+      "twitter": "theefer",
+      "description": "<p>Sébastien Cevey is a software engineer at the Guardian where he leads the development of Composer, the new digital-first CMS.  Editorial tools lie at the intersection of many of his interests such as modelling semantic information and building elegant abstractions at all levels, from UX to API design.</p><p>Prior to his work at the Guardian, he worked on another rich web application, building an online music platform for a startup in East London.</p><p>When not coding, he will likely be found in his kitchen, at a gig or abroad, travelling.</p>",
+      "bookmark_link": "sebastien-cevey",
+      "talk_title": "Building content management tools for the modern web",
+      "talk_description": "<p>As the Guardian adopted modern web approaches such as responsive web design and progressive enhancements, our content model evolved into a highly structured representation. In a new world where our content appears on a multitude of devices, editors don't control the presentation anymore, but instead they inform it through the metadata they provide: extra assets, semantic metadata about embedded media, custom hints for layout, etc.</p><p>The talk describes the challenges we faced building Composer, the new web-based content creation tool for our digital newsroom, and aims to inspire developers to rethink the flexibility and richness of their content models for the modern web, as well as to challenge UX architects to think and design content management tools under these new constraints.</p>",
+      "talk_time": "09:30am"
+      }
+  
+  ]
+}

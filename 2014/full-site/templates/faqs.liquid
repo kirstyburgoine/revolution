@@ -1,0 +1,63 @@
+{% block title %}Sponsors{% endblock %}
+{% block open-wrapper %}
+{% endblock %}
+{% block content %}
+<div class="faqs">
+    <div class="hero hero--short hero--border">
+        <div class="wrapper">
+            <h1>FAQs</h1>
+            <p class="subtitle">Frequently asked questions</p>
+        </div>
+    </div>
+
+    <div class="faqs__content">
+        <div class="wrapper">
+
+  
+
+            <h2 id="refunds">Refunds and Exchanges</h2>
+            <p>Tickets are non-refundable. If you have booked a ticket and are no longer able to attend you have some options: </p>
+
+            <ul>
+            <li>You could let us know so that we can make your seat available to somebody else.</li>
+            <li>You could give / sell your ticket to someone else. If you choose to sell your ticket, <br />we ask that you sell it at the price you paid for it.</li>
+            </ul>
+            <p>Either way, we would appreciate it if you could let us know so that we can keep our attendee list up to date.</p>
+            
+            <h2>What are the costs?</h2>
+            <p>Ticket prices cover the costs incurred when running an event of this nature. All of our speakers are generously donating their time to make this event a success. However, we do pay for the speakers travel and accommodation, the venue also needs paying for as well as marketing materials to help promote the event. If there is any profit after everything is paid we donate it to the British Heart Foundation, in memory of Leu Thorne.</p>
+            
+            <h2>Sponsorship</h2>
+            <p>In order to keep the tickets at an affordable price for everyone and still create an awesome event, we need sponsorship. This can come in a number of different ways, we have some set packages available, or, this year we have introduced Micro Sponsors.</p>
+
+            <p>These are ideal for small businesses and individuals to help support us and available through the Eventbrite booking system. As a special thank you, we will be producing something extra with all of the sponsors, including micro sponsors, listed for you to take away and keep.</p>
+
+            <p>To find out more about sponsorship download the <a href="/assets/REvolution-Sponsorship-2014.pdf">sponsorship pack</a> or drop us an email at <a href="mailto:revolution@shropgeek.co.uk">revolution@shropgeek.co.uk</a></p>
+            
+
+
+
+
+            
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}
+{% block scripts %}
+{{ "owl.carousel.min.js" | asset_url | script_tag }}
+<script>
+    $(document).ready(function() {
+
+      $(".js-photos-carousel").owlCarousel({
+        items : 2,
+        itemsDesktop : [1024,2],
+        itemsDesktopSmall : false,
+        itemsTablet : false,
+        itemsMobile : [480,1] // itemsMobile disabled - inherit from itemsTablet option
+      });
+    });
+</script>
+{% endblock %}

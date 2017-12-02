@@ -1,0 +1,215 @@
+    .image-replacement {
+    text-indent: -1000%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 63.333333333em;
+    padding: 0 1em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.add-border {
+    border: 1px solid $colour_borders;
+}
+
+@mixin unstyled-list {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none outside none;
+}
+
+@mixin inline-list {
+    margin-left: -0.5em;
+    margin-bottom: 0;
+    li {
+        display: inline-block;
+        margin-left: 0.5em;
+    }
+}
+
+@mixin clearfix {
+    &:before,
+    &:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+
+    &:after {
+        clear: both;
+    }
+
+    /**
+     * For IE 6/7 only
+     * Include this rule to trigger hasLayout and contain floats.
+     */
+    &{
+        *zoom: 1;
+    }
+}
+
+@mixin hoverActiveFocus {
+    &:hover, &:active, &:focus {
+        @content;
+    }
+}
+
+@mixin media-block {
+    @include clearfix;
+    &>:first-child {
+        float: left;
+        margin-right: $gutter-width/2;
+    }
+    &>:last-child {
+        overflow: hidden;
+    }
+}
+
+@mixin button($background-color: $colour_red) {
+    display: inline-block;
+    padding: 0.3em 1em;
+    background-color: $background-color;
+    color: #fff;
+    border-radius: 3px;
+}
+
+
+@function calculateRem($size, $base) {
+  $remSize: $size / $base;
+  @return #{$remSize}rem;
+}
+
+/*
+ * Send a size in pixels, property (optional), and a base size (optional)
+ * Returns the same size calculated in rems and a fall-back px for older browsers
+ * Input
+ * @include remSize(18px, margin-top, 16px);
+ * Output
+ * margin-top: 18px;
+ * margin-top: 1.125rem;
+ */
+@mixin remSize($size, $property:font-size, $base:$size-font-base) {
+  #{$property}: $size; //Fallback in px
+  #{$property}: calculateRem($size, $base);
+}
+
+$prefixes: ("-webkit-","-moz-", "-o-", "-ms-", "");
+@mixin prefix($property, $value) {
+    @each $prefix in $prefixes {
+        #{$prefix}#{$property}: #{$value};
+    }
+}
+
+@mixin grid-row  {
+    @include clearfix;
+}
+
+@mixin grid-column {
+    float: left;
+    padding-left: 3%;
+    &:first-child {
+        padding-left: 0;
+    }
+}
+
+@mixin grid-column--centred {
+    margin: 0 auto;
+}
+
+@mixin grid-column--equal {
+    float: left;
+}
+
+@mixin grid-column--no-padding {
+    padding-left: 0;
+}
+
+@mixin grid-column--half {
+    width: 50%;
+}
+@mixin grid-column--quarter {
+    width: 25%;
+}
+@mixin grid-column--third {
+    width: 33.3333333%;
+}
+
+@mixin grid-column--two-thirds {
+    width: 66.666666666%;
+}
+
+@mixin grid-column--three-quarters {
+    width: 75%;
+}
+
+@mixin grid-column--sixth {
+    width: 16.666666667%;
+}
+
+@mixin grid-column--five-sixths {
+    width: 83.333333335%;
+}
+
+@mixin grid-column--seven-twelfths {
+    width: 58.333333331%;
+}
+
+@mixin grid-column--block {
+    display: inline-block;
+    margin-left: 3%;
+    vertical-align: top;
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+@mixin block-grid-eigth {
+    width: 9.875%;
+    &:nth-child(8n+1) {
+        margin-left: 0;
+    }
+}
+
+@mixin block-grid-sixth {
+    width: 14.166666667%;
+    &:nth-child(6n+1) {
+        margin-left: 0;
+    }
+}
+
+@mixin block-grid-fifth {
+    width: 17.6%;
+    &:nth-child(5n+1) {
+        margin-left: 0;
+    }
+}
+
+@mixin block-grid-quarter {
+    width: 22.75%;
+    &:nth-child(4n+1) {
+        margin-left: 0;
+    }
+}
+
+@mixin block-grid-third {
+    width: 30.666666667%;
+    &:nth-child(3n+1) {
+        margin-left: 0;
+    }
+}
+
+@mixin block-grid-half {
+    width: 48.5%;
+    &:nth-child(odd) {
+        margin-left: 0;
+    }
+}
+
+@mixin columns($count:2) {
+    -webkit-column-count: $count;
+    -moz-column-count: $count;
+    -o-column-count: $count;
+    column-count: $count;
+}

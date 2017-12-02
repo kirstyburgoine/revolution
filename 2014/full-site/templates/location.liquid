@@ -1,0 +1,176 @@
+{% block title %}Location{% endblock %}
+{% block open-wrapper %}
+{% endblock %}
+{% block content %}
+<div class="location__conference-centre">
+    <div class="hero hero--short">
+        <div class="wrapper">
+            <h1>The venue</h1>
+            <p class="subtitle">The Shropshire Conference Centre</p>
+        </div>
+    </div>
+    <div class="conference-centre">
+        <div class="map page">
+            <div class="conference-centre-info">
+                <div id="directionsPanel"></div>
+                <img src="{{ "conference-centre.jpg" | asset_url }}" alt="conference-centre" />
+                <div class="vcard">
+                    <div class="fn org">Shropshire Conference Centre</div>
+                    <div class="adr">
+                        <div class="street-address">
+                            <span>Royal Shrewsbury Hospital</span>
+                            <span>Mytton Oak Road</span>
+                        </div>
+                        <span class="locality">Shrewsbury</span>
+                         <span class="region">Shropshire</span>
+                         <div class="postal-code">SY3 8XQ</div>
+                         <a href="https://maps.google.co.uk/maps?daddr=Shropshire+Conference+Centre,+Shropshire+Education+%26+Conference+Centre,,+Royal+Shrewsbury+Hospital,+Mytton+Oak+Road,+Shrewsbury,+Shropshire+SY3+8XQ&hl=en&sll=52.787012,-2.734892&sspn=0.249992,0.482712&geocode=CS9_3rY7p98UFTJOJAMdN2vV_yn3SMZZoJ96SDF8e6Jutr6kog&mra=ls&t=m&z=11">Get directions</a>
+                    </div>
+                </div>
+            </div>
+            <div id="map-canvas" class="map-canvas">
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="conference-centre--grid-row">
+                <div class="conference-centre--grid-unit">
+                    <p>The Shropshire Conference Centre is located just outside Shrewsbury.    </p>
+                    <p>The only purpose-built auditorium in Shropshire, it shares a large site with the Royal Shrewsbury Hospital, making it easy to find, with dedicated, private parking and great public transport links.</p>
+                </div>
+                <div class="conference-centre--grid-unit">
+                    <h2 class="tertiary-heading">Arriving by public transport</h2>
+                    <p>If you arrive in Shrewsbury by train, there is a bus every 15 minutes to the conference centre from the town centre bus station, just ask for a return to the hospital.</p>
+                    <p><a href="https://maps.google.co.uk/maps?daddr=Shropshire+Conference+Centre,+Shropshire+Education+%26+Conference+Centre,,+Royal+Shrewsbury+Hospital,+Mytton+Oak+Road,+Shrewsbury,+Shropshire+SY3+8XQ&amp;hl=en&amp;sll=52.787012,-2.734892&amp;sspn=0.249992,0.482712&amp;geocode=CS9_3rY7p98UFTJOJAMdN2vV_yn3SMZZoJ96SDF8e6Jutr6kog&amp;mra=ls&amp;t=m&amp;z=11" target="_blank">Directions</a> <a href="http://shropshire.gov.uk/bustimes/stop.jsc?stop=3500B255800" target="_blank">Bus times</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="location__shrewsbury">
+    <div class="hero hero--short">
+        <div class="wrapper">
+            <h1>Shrewsbury</h1>
+            <p class="subtitle">The town of flowers</p>
+        </div>
+    </div>
+    <div class="shrewsbury__photo-bg">
+        <div class="wrapper">
+            <div class="shrewsbury__photo__block">
+                <p>(R)Evolution is held in Shrewsbury: birthplace of Charles Darwin, Shrewsbury is set amidst glorious countryside near to the Welsh Borders. It boasts over 600 listed buildings including the Castle, now a regimental museum and the world-famous Shrewsbury Abbey.
+                </p>
+                <p>
+                Shrewsbury is home to Shropgeek, part of a thriving tech industry stretching from the West Midlands to the Welsh border.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="shrewsbury__travel">
+            <div class="shrewsbury__grid-row">
+                <div class="shrewsbury__travel--grid-unit">
+                    <h2>Travel</h2>
+                    <p>Shrewsbury is less than an hour from Birmingham, and 1 hour 40 from Manchester, Liverpool and Nottingham.</p>
+                </div>
+                <div class="shrewsbury__travel--grid-unit">
+                    <h3 class="push-top">By car</h3>
+                    <p>Shrewsbury connects to the M6 and motorway network via the M54. The A49, A5, A53, A458 all make Shrewsbury easily accessible.</p>
+                </div>
+                <div class="shrewsbury__travel--grid-unit">
+                    <h3 class="push-top">By rail</h3>
+                    <p>Shrewsbury train station is the centre of the town and is linked by a regular main line rail service and is a short walk away from the bus station.</p>
+                </div>
+            </div>
+        </div>
+        <div class="shrewsbury__accomodation">
+            <h2>Where to stay</h2>
+            <div class="shrewsbury__grid-row">
+                <div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.prince-rupert-hotel.co.uk/" target="_blank">The Prince Rupert</a></h3>
+                        <div class="addr">
+                            <p class="street-address">Butcher Row, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 1UQ</span></p>
+                        </div>
+                        <p class="tel">01743 499955</p>
+                    </div>
+                </div><!--
+                --><div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.premierinn.com/en/hotel/SHRSMI/shrewsbury-town-centre" target="_blank">Premier Inn</a></h3>
+                        <div class="addr">
+                            <p class="street-address">Smithfield Road, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 1QB</span></p>
+                        </div>
+                        <p class="tel">0871 527 9402</p>
+                    </div>
+                </div><!--
+                --><div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.oldpostofficepub.co.uk/" target="_blank">The Old Post Office</a></h3>
+                        <div class="addr">
+                            <p class="street-address">1 Milk Street, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 1SZ</span></p>
+                        </div>
+                        <p class="tel">01743 236019</p>
+                    </div>
+                </div><!--
+                --><div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.jdwetherspoon.co.uk/home/pubs/the-shrewsbury-hotel" target="_blank">The Shrewsbury Hotel</a></h3>
+                        <div class="addr">
+                            <p class="street-address">Bridge Place, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 1PU</span></p>
+                        </div>
+                        <p class="tel">01743 236203</p>
+                    </div>
+                </div><!--
+                --><div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.thelionhotelshrewsbury.com/" target="_blank">The Lion Hotel</a></h3>
+                        <div class="addr">
+                            <p class="street-address">Wyle Cop, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 11UY</span></p>
+                        </div>
+                        <p class="tel">01743 353107</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-shrewsbury__food-and-drink">
+            <h2>Food and Drink</h2>
+            <div class="about-shrewsbury__food-and-drink__grid-row">
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h3 class="fn org url"><a href="http://www.thealb.co.uk/">The Alb</a></h3>
+                    <p>Home of the #shropgeeksocial and our Rebellion events. Bar Food / Bistro and Restaurant menus available.</p>
+                </div><!--
+                --><div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h3 class="fn org url"><a href="http://www.eatupshrewsbury.co.uk/">Eat up</a></h3>
+                    <p>Coffee, hearty lunches and amazing cakes</p>
+                </div><!--
+                --><div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h3 class="fn org url"><a href="http://shrewsburycoffeehouse.co.uk/">Shrewsbury Coffee House</a></h3>
+                    <p>Has Bean Coffee and light lunches</p>
+                </div><!--
+                --><div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h3 class="fn org url"><a href="https://www.facebook.com/thebirdsnestcafe">The Birds nest</a></h3>
+                    <p>Coffee, cake and lunch amongst the hustle and bustle of the market hall</p>
+                </div><!--
+                --><div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h3 class="fn org url"><a href="https://www.facebook.com/frankshrewsbury">Frank</a></h3>
+                    <p>American style diner with good beer and even better burgers</p>
+                </div><!--
+                --><div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h3 class="fn org url"><a href="http://www.brunningandprice.co.uk/armoury/">The Armoury</a></h3>
+                    <p>Gastropub on the riverside</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}
+{% block scripts %}
+    {{ "map.min.js" | asset_url | script_tag }}
+{% endblock %}

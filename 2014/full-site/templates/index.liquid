@@ -1,0 +1,143 @@
+{% model "speakers.json" %}
+{% block title %}Home{% endblock %}
+{% block open-wrapper %}
+{% endblock %}
+{% block content %}
+<div class="hero hero-homepage">
+    <div class="hero-homepage__background-image">
+    </div>
+    <div class="wrapper">
+        <h1 class="small-heading">We're back for our
+        <span class="fifth-year">fifth year</span>
+        </h1>
+        <p class="subtitle">Come and join us for one of the web industry’s friendliest conferences, and stay for one of the UK’s most beautiful towns</p>
+    </div>
+</div>
+<div class="speakers">
+    <div class="wrapper">
+    <!-- Don't remove this comment - inline-block fix
+        {% for speaker in model.speaker %}
+            --><div class="grid-unit--speaker--preview">
+                <div class="speaker--preview">
+                    <a href="speakers#{{ speaker.bookmark_link }}" class="block-link">
+                        <img src="assets/img/{{ speaker.photo }}" alt="" />
+                        <h2 class="speaker--preview__name">{{ speaker.name }}</h2>
+                    </a>
+                    <p class="speaker--preview__meta speaker--preview__org">
+                        {% for org in speaker.organisations %}
+                            {% for value in org %}
+                                {{ org[forloop.index0].name }}{% unless forloop.last %},{% endunless %}
+                            {% endfor %}
+                        {% endfor %}
+                    </p>
+                </div>
+            </div><!-- Don't remove this comment - inline-block fix
+        {% endfor %}
+        -->
+    </div>
+</div>
+<div class="welcome-back">
+    <div class="wrapper">
+        <h2>Welcome back</h2>
+        <div class="welcome-back__grid-row">
+            <div class="welcome-back__grid-unit">
+                <div class="welcome-back__text-intro">
+                <p>After 3 years as an evening event, 2013 saw (R)Evolution evolve into a full day, single-track web conference. It was so awesome we are doing it all again!</p>
+
+                <p>Once again, we have 8 of the web's most revolutionary thinkers and space for 200 attendees. So whether you're a web industry veteran or just starting your career, you won't want to miss out on the chance to be part of one of the friendliest web conferences in the UK.</p>
+                </div>
+            </div><!--
+            --><div class="welcome-back__grid-unit">
+                <div class="welcome-back__video">
+                    <iframe width="640" height="360" src="//www.youtube.com/embed/DCJqkBHxOFI?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="whats-included">
+    <div class="wrapper">
+        <h2>What's included</h2>
+        <div class="whats-included__grid-row">
+            <div class="whats-included__grid-unit">
+                <div class="whats-included__feature">
+                    <img src="{{ "icon-speakers.svg" | asset_url }}" alt="icon - 8 awesome speakers" />
+                    <div>
+                        <h3>8 awesome speakers</h3>
+                        <p>Our world-class speakers represent many digital disciplines – from design and user experience, to strategy and production. Each one brings years of experience and will share their unique perspective.</p>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="whats-included__grid-unit">
+                <div class="whats-included__feature">
+                    <img src="{{ "icon-attendees.svg" | asset_url }}" alt="icon - 200 attendees" />
+                    <div>
+                        <h3>200 attendees</h3>
+                        <p>You will meet people with just about every sort of digital job title. Entrepreneurs and businesspeople from all over the UK will be here. Name tags may include: designers, strategists, developers, engineers, analysts... </p>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="whats-included__grid-unit">
+                <div class="whats-included__feature">
+                    <img src="{{ "icon-lunches.svg" | asset_url }}" alt="icon - Lunch and plenty of free hot drinks" />
+                    <div>
+                        <h3>Lunch and plenty of free hot drinks</h3>
+                        <p>Tickets include lunch and plenty of coffee, with time and space to meet and chat with speakers, sponsors and attendees. No one will go hungry or under-caffeinated here.</p>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="whats-included__grid-unit">
+                <div class="whats-included__feature">
+                    <img src="{{ "icon-party.svg" | asset_url }}" alt="icon - An unforgettable after party" />
+                    <div>
+                        <h3>An unforgettable after party</h3>
+                        <p>The (R)Evolution doesn't stop with the final talk. All are invited to join us at Romolo, with money behind the bar. There will be cocktails so varied, you may find design inspiration in the colours alone!</p>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="whats-included__grid-unit">
+                <div class="whats-included__feature">
+                    <img src="{{ "icon-fringe.svg" | asset_url }}" alt="icon - Supporting fringe events" />
+                    <div>
+                        <h3>Supporting fringe events</h3>
+                        <p>A full-day event isn't big enough for everything we've got for the digital community. Before the main event, we put on a Rebellion at the Alb. After, there's an incredible cocktail party, breakfast the next morning and maybe even more to be announced.</p>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="whats-included__grid-unit">
+                <div class="whats-included__feature">
+                    <img src="{{ "icon-shropshire.svg" | asset_url }}" alt="All in the heart of stunning Shropshire" />
+                    <div>
+                        <h3>All in the heart of stunning Shropshire</h3>
+                        <p>We call the 'Shire home, and welcome your visit. Shrewsbury offers culture, history and great food. Or, unplug before or after Shropshire's original web conference with a walk in the natural beauty of Shropshire's hills.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="who-is-it-for">
+    <div class="wrapper">
+        <h2>Who is it for</h2>
+        <div class="who-is-it-for__grid-row">
+            <div class="who-is-it-for__grid-unit">
+                <img src="{{ "designer.svg" | asset_url }}" alt="" />
+                <h3>Designers</h3>
+                <p>Whether it's layout and styling, colour palettes and typography or designing the users' journey and experience, we've got something to interest you.</p>
+            </div><!--
+            --><div class="who-is-it-for__grid-unit">
+                <img src="{{ "developer.svg" | asset_url }}" alt="" />
+                <h3>Developers</h3>
+                <p>Live and breathe code, or dabble and want to expand your skillset? We wouldn't consider this to be a "proper" Shropgeek conference without you!</p>
+            </div><!--
+            --><div class="who-is-it-for__grid-unit">
+                <img src="{{ "maker.svg" | asset_url }}" alt="" />
+                <h3>Makers</h3>
+                <p>Are you a maker, a builder of web things? Content and communities, apps or strategies, you're a creative type and a maker – we've got you covered.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}

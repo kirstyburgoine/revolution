@@ -1,0 +1,21 @@
+{% block title %}News{% endblock %}
+{% block content %}
+    <div class="hero hero--short hero--border">
+        <div class="wrapper">
+            <h1>News</h1>
+            <p class="subtitle">All the latest news and announcements</p>
+        </div>
+    </div>
+
+{% collection "news" order desc %}
+
+  <ol class="list-of-news-posts">
+  {% for post in collection.items %}
+    <li class="news-post--in-list news-post">
+            {{ post.body }}
+    </li>
+  {% endfor %}
+  </ol>
+{% endcollection %}
+
+{% endblock %}

@@ -1,0 +1,65 @@
+
+<header class="header header--pre">
+  <div class="wrapper">
+    <ul class="quick-event-details header--pre_links-list">
+      <li>Friday, 26 September 2014</li>
+      <li>Shropshire Conference Centre, Shrewsbury</li>
+      <li><a href="#" class="hashtag">#Revolutionconf</a></li>
+    </ul>
+    <div class="quick-navigation-position">
+     <ul class="secondary-links-menu header--pre_links-list nav__menu">
+          <li><a href="/news">News</a></li>
+          <li><a href="mailto:revolution@shropgeek.co.uk">Contact</a></li>
+          <li><a href="/tickets" class="tickets-button">Tickets</a></li>
+      </ul>
+    </div>
+
+  </div>
+</header>
+
+<header class="header header--site">
+    <div class="wrapper">
+        <a href="/" class="site-logo"><h1>(R)evolution</h1></a>
+        <div class="navigation-position">
+          <nav class="site-nav nav-collapse" role="navigation">
+            <ul class="primary-links-menu nav__menu">
+              <li
+                {% if mixture.url == "about" %}
+                    class="current"
+                {% endif %}>
+                <a href="/about">About</a>
+              </li>
+              <li
+                {% if mixture.url == "speakers" %}
+                    class="current"
+                {% endif %}>
+                <a href="/speakers">Speakers</a>
+              </li>
+              <li
+                {% if mixture.url == "schedule" %}
+                    class="current"
+                {% endif %}>
+                <a href="/schedule">Schedule</a>
+              </li>
+              <li
+                {% if mixture.url == "location" %}
+                    class="current"
+                {% endif %}>
+                <a href="/location">Location</a>
+              </li>
+              <li
+                {% if mixture.url == "fringe" %}
+                    class="current"
+                {% endif %}>
+                <a href="/fringe">Fringe</a>
+              </li>
+              <!--<li class="secondary-link"><a href="/news">News</a></li>-->
+              <li class="secondary-link"><a href="mailto:revolution@shropgeek.co.uk">Contact</a></li>
+              <li class="secondary-link"><a href="/tickets" class="tickets-button">Tickets</a></li>
+            </ul>
+          </nav>
+        </div>
+
+    </div>
+</header>
+

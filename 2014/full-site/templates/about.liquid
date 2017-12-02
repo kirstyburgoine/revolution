@@ -1,0 +1,120 @@
+{% block title %}About{% endblock %}
+{% block open-wrapper %}
+{% endblock %}
+{% block content %}
+<div class="about">
+    <div class="hero hero--short hero--border">
+        <div class="wrapper">
+            <h1>About</h1>
+            <p class="subtitle">Shropshire's original web conference</p>
+        </div>
+    </div>
+        <div class="owl-carousel js-photos-carousel">
+            <div class="item"><img src="{{ "2.jpg" | asset_url }}"></div>
+            <div class="item"><img src="{{ "3.jpg" | asset_url }}"></div>
+            <div class="item"><img src="{{ "4.jpg" | asset_url }}"></div>
+            <div class="item"><img src="{{ "1.jpg" | asset_url }}"></div>
+        </div>
+    <div class="about__content">
+        <div class="wrapper">
+            <div class="about__grid-row">
+                <div class="about__blurb-grid-unit">
+                    <div class="about__blurb">
+                        <p>This September, 200 people from just about every sort of digital job will join us in the 'Shire for a world-class, full-day web conference. Entrepreneurs, professionals and geeks of every description  will share what makes things faster, stronger, and better in the town of Darwin's birth. This is the (R)Evolution's 5th year, and we're proud to say: </p>
+
+                        <p><strong>It keeps getting better!</strong></p>
+
+                        <p>Our speakers represent many digital disciplines – from design and user experience, to strategy and production. Each one brings years of experience and will share their unique perspective. </p>
+
+                        <p>We have always been a friendly conference, because we started (and <a href="http://shropgeek.co.uk">continue</a>!) as a gathering of like-minded digital professionals over beer and discussion. There's a lot to fit into a single day, but we always make room for discussion and questions.</p>
+
+                        <p>We believe in supporting the UK's digital community, and welcome anyone interested in the web.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about__team">
+        <div class="wrapper">
+            <div class="about__grid-row">
+                <div class="about__team__team-grid-unit">
+                    <div class="about__team__team">
+                        <h2>The team</h2>
+                        <ul class="about__team__list">
+                            <li class="about__team__list__item">
+                                <div class="person">
+                                    <div class="media-block">
+                                            <img src="{{ "kirsty.jpg" | asset_url }}">
+                                            <div>
+                                                <p class="person__name">Kirsty Burgoine</p>
+                                                <p class="person__link"><a href="http://twitter.com/kirstyburgoine">@kirstyburgoine</a></p>
+                                                <p class="person__link"><a href="http://www.kirstyburgoine.co.uk">kirstyburgoine.co.uk</a></p>
+                                            </div>
+                                    </div>
+                                    <p class="person__description">Web designer / developer living in Shropshire. WordPress specialist. Owner of Kirsty Burgoine Ltd. Organiser of @shropgeek</p>
+                                </div>
+                            </li><!--
+                            --><li class="about__team__list__item">
+                                <div class="person">
+                                    <div class="media-block">
+                                            <img src="{{ "pete.jpg" | asset_url }}">
+                                            <div>
+                                                <p class="person__name">Pete White</p>
+                                                <p class="person__link"><a href="http://twitter.com/kingpetey">@kingpetey</a></p>
+                                                <p class="person__link"><a href="http://www.petejwhite.com/">petejwhite.com</a></p>
+                                            </div>
+                                    </div>
+                                    <p class="person__description">Shrewsbury based Web Developer, Drupal Specialist, Blogger and Love Shrewsbury Editor - works at Information Solutions/The Web Orchard.</p>
+                                </div>
+                            </li><!--
+                            --><li class="about__team__list__item">
+                                <div class="person">
+                                    <div class="media-block">
+                                            <img src="{{ "zach.jpg" | asset_url }}">
+                                            <div>
+                                                <p class="person__name">Zach Beauvais</p>
+                                                <p class="person__link"><a href="http://twitter.com/beauvais">@beauvais</a></p>
+                                                <p class="person__link"><a href="http://www.zachbeauvais.co.uk">zachbeauvais.co.uk</a></p>
+                                            </div>
+                                    </div>
+                                    <p class="person__description">Writer, evangelist, strategist: telling stories, exploring ideas, nurturing communities.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="about__grid-row">
+                
+                <!-- 
+                Commented out until it can be populated file is: include "about-volunteers"
+                -->
+
+                <div class="about__team__credits-grid-unit">
+                    <h3>Credits</h3>
+                    <p>This site was designed and developed by <a href="http://mynameismartin.com">Martin Wright</a>, and illustrated by <a href="http://stinajones.co.uk/" >Stina Jones</a>. Special thanks to <a href="http://neilkinnish.com/">Neil Kinnish</a> for the location map.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}
+{% block scripts %}
+{{ "owl.carousel.min.js" | asset_url | script_tag }}
+<script>
+    $(document).ready(function() {
+
+      $(".js-photos-carousel").owlCarousel({
+        items : 2,
+        itemsDesktop : [1024,2],
+        itemsDesktopSmall : false,
+        itemsTablet : false,
+        itemsMobile : [480,1] // itemsMobile disabled - inherit from itemsTablet option
+      });
+    });
+</script>
+{% endblock %}

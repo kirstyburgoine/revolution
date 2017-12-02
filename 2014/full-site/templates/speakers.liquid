@@ -1,0 +1,49 @@
+{% model "speakers.json" %}
+{% block title %}Speakers{% endblock %}
+{% block open-wrapper %}
+{% endblock %}
+{% block content %}
+<div class="hero hero--short hero--border">
+    <div class="wrapper">
+        <h1>Speakers</h1>
+        <p class="subtitle">People, what talk at you</p>
+    </div>
+</div>
+<div class="speakers-page">
+    <div class="wrapper">
+        {% for speaker in model.speaker %}
+            <div class="speaker" id="{{ speaker.bookmark_link }}">
+                <h2 class="speaker__name">{{ speaker.name }}</h2>
+                <div class="speaker__details">
+                    <div class="speaker-unit--metadata">
+                        <div class="speaker__metadata">
+                            <ul>
+                                {% for org in speaker.organisations %}
+                                    {% for value in org %}
+                                        <li><a href="{{ org[forloop.index0].url }}">{{ org[forloop.index0].name }}</a></li>
+                                    {% endfor %}
+                                {% endfor %}
+
+                                 {% if speaker.twitter %}<li><a href="http://www.twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></li>{% endif %}
+                                 {% if speaker.twitter-1 %}<li><a href="http://www.twitter.com/{{ speaker.twitter-1 }}">@{{ speaker.twitter-1 }}</a></li>{% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="speaker-unit--description">
+                        <div class="speaker__description">
+                            {{ speaker.description }}
+                        </div>
+                    </div>
+                    <div class="speaker-unit--photo">
+                        <div class="speaker__photo">
+                            <img src="assets/img/{{ speaker.photo }}" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}
