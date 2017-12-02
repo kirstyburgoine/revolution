@@ -1,0 +1,216 @@
+@import 'normalize';
+@import 'variables';
+@import 'mixins';
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: $tisa;
+    background-color: $colour_background;
+    background-image: url("../img/background-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5em;
+    height: 100%;
+    min-height: 100%;
+    @media (min-width: $large-screen) {
+        font-size: 1.375em;
+        line-height: 1.5em;
+    }
+}
+
+a {
+    color: $colour_links;
+    text-decoration: none;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+.hoz-form {
+
+    .hoz-form__field {
+        width: 66%;
+        float: left;
+    }
+    .field {
+        width: 100%;
+    }
+    .hoz-form__button {
+        width: 34%;
+        float: left;
+    }
+    .button {
+        width: 100%;
+    }
+}
+.signup-form {
+    width: 100%;
+    @media (min-width: $medium-screen) {
+        max-width: 24em;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: 0.5em;
+    }
+}
+.field,
+.button {
+    padding: .66em;
+    -webkit-appearance: none;
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+}
+.button {
+    background-color: $colour_gold;
+    color: #fff;
+    padding: .66em;
+    &:hover,
+    &:active,
+    &:focus {
+        background-color: darken($colour_gold, 5%);
+    }
+}
+
+p {
+    font-size: 1em;
+}
+
+.gold-type {
+    color: $colour_gold;
+}
+
+.shropgeek-tab {
+    background-color: black;
+    font-family: $freight;
+    text-align: center;
+    margin: 0 auto;
+    width: 5em;
+    height: 5em;
+    color: #fff;
+    @media (min-width: $medium-screen) {
+        float: right;
+        width: 7em;
+        height: 7em;
+    }
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+        background-color: #fff;
+        color: $colour_gold;
+    }
+}
+
+.shropgeek-tab__top,
+.shropgeek-tab__bottom {
+    display: block;
+    line-height: 1.1em;
+}
+
+.shropgeek-tab__top {
+    font-size: .75em;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 2.2em;
+    @media (min-width: $medium-screen) {
+        padding-top: 3em;
+        font-size: 0.846153846em;
+    }
+}
+
+.shropgeek-tab__bottom {
+    font-weight: 300;
+    font-size: 0.6em;
+    @media (min-width: $medium-screen) {
+        font-size: 0.636363636em;
+    }
+}
+
+.revolution-2014-logo {
+    width: 100%;
+    height: auto;
+    color: #fff;
+}
+
+.signup-form,
+.date-time,
+.subtitle {
+    text-align: center;
+    @media (min-width: $medium-screen) {
+        text-align: left;
+    }
+}
+.date-time {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    max-width: 30em;
+}
+
+.wrapper {
+    position: relative;
+    padding: 0 5%;
+    @media (min-width: $medium-screen) {
+        padding: 0 3%;
+    }
+    max-width: 63.636363636em;
+    margin: 0 auto;
+}
+
+.site-title {
+    width: 110%;
+    margin-left: -5%;
+    @media (min-width: $medium-screen) {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+.content-position {
+    position: relative;
+    clear: both;
+    @media (min-width: $medium-screen) {
+        top: 80px;
+    }
+    @media (min-width: $large-screen) {
+        top: -50px;
+    }
+    @media (min-width: $giant-screen) {
+        top: 0;
+    }
+}
+
+@media (min-width: $medium-screen) {
+    .signup-form,
+    .date-time,
+    .subtitle {
+        position: absolute;
+        left: 26%;
+    }
+
+    .date-time {
+        top: 4%;
+    }
+
+    .subtitle {
+        top: 69%;
+    }
+}
+
+@media (min-width: $large-screen) {
+     .date-time {
+        top: 10%;
+    }
+}
+
