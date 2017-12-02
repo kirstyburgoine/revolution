@@ -1,0 +1,48 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if !(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta http-equiv="x-ua-compatible" content="IE=Edge"/>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        
+        <title>{% block title %}Shropgeek (R)evolution 2015{% endblock %}</title>
+        <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+        <link rel="shortcut icon" type="image/ico" href="assets/img/favicon.png" />
+        {% include "typekit" %}
+        
+        {{ "global.css" | asset_url | stylesheet_tag }}
+       
+        {% block styles %}{% endblock %}
+    </head>
+    <body>
+       
+        
+        {% block content %}{% endblock %}
+       
+        
+        {% block scripts %}{% endblock %}
+        {{ "modernizer.min.js" | asset_url | script_tag }}
+        {{ "svgeezy.min.js" | asset_url | script_tag }}
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js?ver=4.1.4'></script>
+        {{ "scrollTo.min.js" | asset_url | script_tag }}
+        <script>
+
+            svgeezy.init('nocheck', 'png');
+
+            function scrollToAnchor(aid){
+                var aTag = $("a[id='"+ aid +"']");
+                $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+            }
+
+            $("#starring-link").click(function() {
+               scrollToAnchor('lineup');
+            });
+
+        </script>
+    </body>
+</html>

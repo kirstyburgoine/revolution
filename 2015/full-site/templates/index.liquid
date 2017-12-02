@@ -1,0 +1,152 @@
+{% model "speakers.json" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="hero hero-homepage">
+    <div class="wrapper">
+        <h2 class="top-subtitle">From the depths of Shropshire&hellip;</h1>
+        <h1>
+            <span class="bg">A full day conference</span>
+            <br>
+            <span class="bg">of web &amp; technology</span>
+            <br>
+            <span class="bg">talks</span>
+        </h1>
+        <h2 class="bottom-subtitle">
+            <span class="bg">A most startling adventure into</span>
+            <br>
+            <span class="bg">the history of tomorrow</span>
+        </h2>
+        <figure>
+            <div class="rotating-image-wrapper">
+                <ul class="bxslider">
+                    <li><img src="assets/img/previous-screenshots/2010.jpg" alt="Screenshot of 2010 conference website"></li>
+                    <li><img src="assets/img/previous-screenshots/2011.jpg" alt="Screenshot of 2011 conference website"></li>
+                    <li><img src="assets/img/previous-screenshots/2012.jpg" alt="Screenshot of 2012 conference website"></li>
+                    <li><img src="assets/img/previous-screenshots/2013.jpg" alt="Screenshot of 2013 conference website"></li>
+                    <li><img src="assets/img/previous-screenshots/2014.jpg" alt="Screenshot of 2014 conference website"></li>
+                </ul>
+            </div>
+        </figure>
+    </div>
+</div>
+<main>
+    <div class="speakers">
+        <div class="wrapper">
+            <h2>9 Out of This World Speakers</h2>
+            <p>
+                Our world-class speakers represent many digital disciplines – from design and user experience, to strategy and production.
+                <br>
+                Each one brings years of experience and will share their unique perspective.
+            </p>
+        <!-- Don't remove this comment - inline-block fix
+            {% for speaker in model.speaker %}
+                --><div class="grid-unit--speaker--preview">
+                    <div class="speaker--preview">
+                        <a href="speakers#{{ speaker.bookmark_link }}" class="block-link">
+                            <img src="assets/img/speakers/{{ speaker.tv_img }}" alt="{{ speaker.firstname }} {{ speaker.surname }} photo" />
+                            <h3 class="speaker--preview__name"><span>{{ speaker.firstname }}</span> {{ speaker.surname }}</h3>
+                        </a>
+                        <p class="speaker--preview__meta">
+                            <span class="speaker--preview__org">
+                                {% for org in speaker.organisations %}
+                                    {% for value in org %}
+                                        {{ org[forloop.index0].name }}{% unless forloop.last %},{% endunless %}
+                                    {% endfor %}
+                                {% endfor %}
+                            </span>
+                            <br>
+                            <a href="https://twitter.com/{{ speaker.twitter }}" target="_blank">@{{ speaker.twitter }}</a>
+                        </p>
+                    </div>
+                </div><!-- Don't remove this comment - inline-block fix
+            {% endfor %}
+            -->
+            <h4>In Beautiful Technicolor!</h4>
+            <hr>
+        </div>
+    </div>
+    <div class="home-location">
+        <div class="wrapper">
+            <div class="home-location__grid-row">
+                <div class="home-location__grid-unit">
+                    <h2>Where is (R)evolution?</h2>
+                    <p class="subtitle"><span>The simple answer is Shrewsbury, but many will ask</span></p>
+                    <p class="subtitle"><span>&quot;but where is Shrewsbury?&quot; Let us explain&hellip;</span></p>
+                    <div class="home-location__small-map">
+                        <img src="{{ "home-small-map.jpg" | asset_url }}" alt="Small location map image">
+                    </div>
+                    <div class="home-location__map-links">
+                        <ul>
+                            <li><a href="https://www.google.co.uk/search?q=shrewsbury" target="_blank">Google it.</a></li>
+                            <li><a href="/location">View our map</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="home-location__grid-unit">
+                    <div class="home-location__grid-unit-travel">
+                        <h3>By Car</h3>
+                        <ul>
+                            <li><a href="https://goo.gl/maps/37e8N" target="_blank">Birmingham - 1hr</a></li>
+                            <li><a href="https://goo.gl/maps/6unCI" target="_blank">London - 3.15hrs</a></li>
+                            <li><a href="https://goo.gl/maps/hAoX8" target="_blank">Manchester - 1.45hrs</a></li>
+                            <li><a href="https://goo.gl/maps/qhGhp" target="_blank">Cardiff - 2.30hrs</a></li>
+                            <li><a href="https://goo.gl/maps/1aI97" target="_blank">Brighton - 4.30hrs</a></li>
+                            <li><a href="https://goo.gl/maps/MqvXj" target="_blank">Leeds - 2.30hrs</a></li>
+                        </ul>
+                    </div>
+                    <div class="home-location__grid-unit-travel">
+                        <h3>By Train</h3>
+                        <ul>
+                            <li><span>Birmingham - 45m</span></li>
+                            <li><span>London - 2.20hrs</span></li>
+                            <li><span>Manchester - 1hr</span></li>
+                            <li><span>Cardiff - 2hrs</span></li>
+                            <li><span>Brighton - 4.25hrs</span></li>
+                            <li><span>Leeds - 2.20hrs</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="welcome-back">
+        <div class="wrapper">
+            <div class="welcome-back__grid-row">
+                <div class="welcome-back-text__grid-unit">
+                    <div class="welcome-back__text-intro">
+                        <h2>A Day the Earth Will Never Forget</h2>
+                        <p>After 3 years as an evening event, 2013 saw (R)Evolution evolve into a full day, single-track web conference. It was so spectacular we are doing it all for a third and final time!</p>
+                        <p>We have 9 of the web's most revolutionary thinkers and space for 250 attendees. So whether you're a web industry veteran or just starting your career, you won't want to miss out on the chance to be part of one of the friendliest web conferences in the UK.</p>
+                    </div>
+                </div>
+                <div class="welcome-back-video__grid-unit">
+                    <div class="welcome-back__video">
+                        <iframe width="587" height="349" src="//www.youtube.com/embed/DCJqkBHxOFI?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="who-is-it-for">
+        <div class="wrapper">
+            <h2>Who is it for?</h2>
+            <div class="who-is-it-for__grid-row">
+                <div class="who-is-it-for__grid-unit">
+                    <h3>Designers</h3>
+                    <p>Whether it's layout and styling, colour palettes and typography or designing the users' journey and experience, we've got something to interest you.</p>
+                </div>
+                <div class="who-is-it-for__grid-unit">
+                    <h3>Developers</h3>
+                    <p>Live and breathe code, or dabble and want to expand your skillset? We wouldn't consider this to be a "proper" Shropgeek conference without you!</p>
+                </div>
+                <div class="who-is-it-for__grid-unit">
+                    <h3>Makers</h3>
+                    <p>Are you a maker, a builder of web things? Content and communities, apps or strategies, you're a creative type and a maker – we've got you covered.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}

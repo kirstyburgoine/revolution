@@ -1,0 +1,77 @@
+<div class="header-wrapper">
+  <header class="header header--pre">
+    <div class="wrapper">
+      <ul class="quick-event-details">
+        <li class="date">Friday September 25th 2015</li>
+        <li>The Walker Theatre, Theatre Severn, Shrewsbury</li>
+        <li><a href="https://twitter.com/#!/search/%23revolutionconf" target="_blank" class="hashtag">#Revolutionconf</a></li>
+      </ul>
+      <div class="quick-navigation-position">
+       <ul class="secondary-links-menu header--pre_links-list nav__menu">
+            <li><a href="mailto:revolution@shropgeek.co.uk">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <header class="header header--site">
+      <div class="wrapper">
+          <a href="http://www.shropgeek.co.uk/" title="Shropgeek" class="header-shropgeek-logo"><img src="{{ "shropgeek.svg" | asset_url }}" alt="Shropgeek Logo"></a>
+          <a href="/" class="site-logo"><h1><img src="{{ "2015-logo.svg" | asset_url }}" alt="Shropgeek Logo"></h1></a>
+          <div class="navigation-position">
+            <nav class="site-nav nav-collapse" role="navigation">
+              <ul class="primary-links-menu nav__menu">
+                <li
+                  {% if mixture.url == "index" %}
+                      class="current"
+                  {% endif %}>
+                  <a href="/" class="nav-text-link">Home</a>
+                </li>
+                <li
+                  {% if mixture.url == "about" %}
+                      class="current"
+                  {% endif %}>
+                  <a href="/about" class="nav-text-link">About</a>
+                </li>
+                <li
+                  {% if mixture.url == "speakers" %}
+                      class="current"
+                  {% endif %}>
+                  <a href="/speakers" class="nav-text-link">Speakers</a>
+                </li>
+                <li
+                  {% if mixture.url == "schedule" %}
+                      class="current"
+                  {% endif %}>
+                  <a href="/schedule" class="nav-text-link">Schedule</a>
+                </li>
+                {% comment %}<li
+                  {% if mixture.url == "workshops" %}
+                      class="current"
+                  {% endif %}>
+                  <a href="/workshops">Workshops</a>
+                </li>{% endcomment %}
+                <li
+                  {% if mixture.url == "location" %}
+                      class="current"
+                  {% endif %}>
+                  <a href="/location" class="nav-text-link">Location</a>
+                </li>
+                <li
+                  {% if mixture.url == "fringe" %}
+                      class="current"
+                  {% endif %}>
+                  <a href="/fringe" class="nav-text-link">Fringe</a>
+                </li>
+                <li id="tickets-button">
+                  <a href="/tickets" title="But Tickets for Shropgeek (R)evolution" class="nav__menu--buy-button"><img src="{{ "buy-tickets-button.png" | asset_url }}" alt="Buy Tickets link"></a>
+                </li>
+              </ul>
+              <div class="nav__menu--buy-button-bg" id="button-swirl">
+                <img src="{{ "swirl-for-button.svg" | asset_url }}" alt="But Tickets background">
+              </div>
+            </nav>
+          </div>
+      </div>
+  </header>
+</div>

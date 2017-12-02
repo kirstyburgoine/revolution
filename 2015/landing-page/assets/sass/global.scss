@@ -1,0 +1,854 @@
+@import 'normalize';
+@import 'variables';
+@import 'mixins';
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    background-color: $colour_background;
+    background-image: url("../img/SpiralSmall.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5em;
+    height: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+
+    @media (min-width: $medium-screen) {
+        background-image: url("../img/SpiralLarge.jpg");
+        background-size: cover;
+    }
+
+    @media (min-width: $large-screen) {
+        font-size: 1.375em;
+        line-height: 1.5em;
+    }
+
+    @media (max-device-width: $large-screen) 
+           and (orientation: landscape) {
+        background-image: url("../img/SpiralSmall.jpg")!important;
+        background-size: 100%!important;
+        background-position: top!important;
+    }
+}
+
+.wrapper {
+    position: relative;
+    padding: 0 5%;
+    max-width: 63.636363636em;
+    margin: 0 auto;
+
+    @media (min-width: $medium-screen) {
+        padding: 0 3%;
+    }
+
+    // USed in lineup section to take up two thirds of the screen
+    &.column-twothirds { 
+
+        width: 100%;
+        
+        // Used in footer for tickets on sale and button
+        @media (min-width: $large-screen) {
+            width: 65%;
+            padding: 1%;
+        }
+
+    }
+
+    // USed in footer to take up one half of the screen
+    &.column-onehalf { 
+
+        width: 100%;
+        
+        // Used in footer for tickets on sale and button
+        @media (min-width: $large-screen) {
+            width: 60%;
+            padding: 1%;
+        }
+
+    }
+
+}
+
+.column {
+    display: inline-block;
+ 
+
+    &.column-2 { 
+
+        width: 100%;
+        
+        @media (min-width: $medium-screen) {
+            width: 48%;
+            padding: 1%;
+        }
+
+    }
+
+
+    &.column-3 { 
+
+        width: 100%;
+        @media (min-width: $medium-screen) {
+            width: 48%;
+        }
+
+        @media (min-width: $large-screen) {
+            width: 32%;
+         
+        }
+    }
+
+    &.column-4 { 
+        width: 100%;
+
+        @media (min-width: $medium-screen) {
+            width: 48%;
+        }
+
+        @media (min-width: $large-screen) {
+            width: 23%;
+            padding: 1%;
+
+
+        }
+    }
+}
+
+
+p {
+    font-size: 1em;
+}
+
+
+a {
+    text-decoration: none;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline;
+    }
+}
+
+.button {
+
+    display: inline-block;
+    margin-bottom: 0;
+    font-family: $open;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 22px;
+    line-height: 38px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background: $colour_white;
+    color: $hero_links;
+    width: 230px;
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+        background: $colour_gold;
+        color: $colour_white;
+    }
+
+    @media (min-width: $medium-screen) {
+        font-size: 28px;
+        width: 275px;
+    }
+}
+
+
+
+.seperator { 
+    height: 1px; 
+    display: block;
+    clear: both;
+}
+
+//------------------------------------------------------------------------------------
+//------------------------------------------------------------------------------------
+
+// Containes header and illustration area so the size can change depending on device
+.hero-container {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    min-height: 610px;
+    width: 100%;
+    background-image: url("../img/building-bg.png");
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    
+
+    
+    @media (min-width: $medium-screen) {
+        height: 100%;
+        background-size: 100%;
+    }
+
+    @media (min-width: $large-screen) {
+        background-size: 937px;
+    }
+
+    @media (min-device-width: $xs-small-screen) 
+        and (max-device-width: $large-screen) 
+           and (orientation: landscape) {
+        height: 880px!important;
+    }
+}
+
+.monster-dude {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    width: 450px;
+    left: 50%;
+    margin-left: -265px;
+    z-index: 100;
+    
+    @media (min-width: $medium-screen) {
+        width: 750px;
+        margin-left: -400px;
+    }
+
+    @media (min-width: $medium-large-screen) {
+        width: 900px;
+        margin-left: -600px;
+    }
+
+    @media (min-width: $large-screen) {
+        bottom: 0;
+        width: 1050px;
+        margin-left: -575px;
+    }
+
+
+    @media (min-width: $giant-screen) {
+        bottom: 0;
+        width: 1100px;
+        margin-left: -650px;
+    }
+
+
+
+}
+
+.monster-dude-ie { display: none; }
+
+.faces {
+    position: absolute;
+    z-index: 200;
+    animation: emoticon 6.5s steps(3) infinite;
+    -webkit-animation: emoticon 6.5s steps(3) infinite;
+    background: url("../img/faces.png") 0 0 no-repeat;
+    background-size: 250px;
+    height: 31px;
+    width: 65px;
+    left: 50%;
+    margin-left: -142px;
+    padding: 0;
+    bottom: 130px;
+
+}
+
+    @keyframes emoticon {  
+        0% {background-position: 0 0; } 
+        100% {background-position: -300px 0; } 
+    }
+        
+
+    
+    @-webkit-keyframes emoticon {  
+        0% {background-position: 0 0; } 
+        100% {background-position: -300px 0; } 
+
+
+    }
+
+
+    @media (min-width: $medium-screen) {
+
+        .faces {
+            background-size: 400px;
+            height:51px;
+            width:95px;
+            bottom: 185px;
+            left: 50%;
+            margin-left: -195px;
+        }
+
+        @keyframes emoticon {  
+            100% { background-position: -475px 0; } 
+        }
+        
+        @-webkit-keyframes emoticon {  
+            100% {background-position: -475px 0; } 
+        }
+
+        
+
+    }
+
+    @media (min-width: $medium-large-screen) {
+
+        .faces {
+            background-size: 498px;
+            height:62px;
+            width:118px;
+            bottom: 210px;
+            left: 50%;
+            margin-left: -355px;
+        }
+
+        @keyframes emoticon {  
+            100% {background-position: -700px 0; } 
+        }
+            
+        @-webkit-keyframes emoticon {  
+            100% {background-position: -600px 0; } 
+        }
+
+    }
+
+    @media (min-width: $large-screen) {
+
+        .faces {
+            background-size: 650px;
+            height:81px;
+            width:165px;
+            bottom: 185px;
+            left: 50%;
+            margin-left: -295px;
+        }
+
+        @keyframes emoticon {  
+            100% {background-position: -770px 0; } 
+        }
+        
+        @-webkit-keyframes emoticon {  
+            100% {background-position: -770px 0; } 
+        }
+
+    }
+
+
+    @media (min-width: $giant-screen) {
+
+        .faces {
+            margin-left: -355px;
+            bottom: 200px;
+        }
+
+    }
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+
+    .monster-dude { display: none; }
+    .monster-dude-ie { 
+        display: block; 
+        position: absolute;
+        bottom: 50px;
+        width: 450px;
+        left: 50%;
+        margin-left: -265px;
+        z-index: 100;
+        
+        @media (min-width: $medium-screen) {
+            width: 750px;
+            margin-left: -400px;
+        }
+
+        @media (min-width: $medium-large-screen) {
+            width: 900px;
+            margin-left: -600px;
+        }
+
+        @media (min-width: $large-screen) {
+            bottom: 0;
+            width: 1050px;
+            margin-left: -575px;
+        }
+
+
+        @media (min-width: $giant-screen) {
+            bottom: 0;
+            width: 1100px;
+            margin-left: -650px;
+        }
+
+    }
+
+    .faces { display: none; }
+
+}
+
+// Main header area with logos and date etc.
+.header {
+    position: relative;
+    z-index: 1;
+
+    background: $header_background;
+
+    @media (min-width: $medium-screen) {
+        opacity: 0.81;
+        
+    }
+    @media (min-width: $large-screen) {
+        max-height: 150px;
+    }
+
+    .column-3 { 
+        display: block;
+        width: 100%;
+        float: left; 
+
+        @media (min-width: $medium-screen) {
+            width: 100%;
+        }
+
+        @media (min-width: $large-screen) {
+            width: 32%;
+         
+        }
+    }
+
+    .shropgeek-logo {
+        width: 100px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+
+
+        @media (min-width: $large-screen) {
+            float: left;
+            margin: 0px;
+            padding-top: 0;
+
+            img {
+                width: 100px;
+                margin-top: 25px;
+            }
+        }
+    }
+
+    .revolution-logo {
+        width: 70%;
+        max-width: 325px;
+        display: block;
+        margin: -10px auto 0 auto;
+
+/*
+        @media (min-width: $medium-screen) {
+          width: 70%;  
+          max-width: 325px;
+          padding: 25px 10px 20px 0;
+          float: right;
+        }
+*/
+        @media (min-width: $large-screen) {
+            margin: 25px 65px 20px 0;
+            float: right;
+            width: 325px;
+        }
+
+    }
+
+    p { 
+        text-align: center; 
+        color: $colour_white;
+        //font-size: 1em;
+        font-size: 16px;
+        line-height: 22px;
+
+        &.date-time { 
+            font-family: $open;
+            font-weight: 600;
+           
+            margin: 10px auto 0 auto;
+            clear: both;
+
+            @media (min-width: $medium-screen) {
+                width: 70%;
+            }
+          
+            @media (min-width: $large-screen) {
+                
+                margin-top: 15px;
+                float: right;
+            }
+        }
+
+        .venue { 
+            font-family: $open;
+            font-weight: 400;
+        }
+        .hashtag { 
+            font-family: $open;
+            font-weight: 700;
+            line-height: 60px;
+
+            @media (min-width: $medium-screen) {
+                line-height: 40px;
+            }
+        }
+    }
+
+}
+
+// Illustration area with tag line
+.hero {
+    position: relative;
+    z-index: 9999;
+    margin: 30px 0 40px 0;
+
+    @media (min-width: $large-screen) {
+        margin: 70px 0 0 0;
+    }
+
+    h1, h2 { 
+        color: $hero_text;
+
+        .bg {
+            background: $colour_gold;
+            padding: 0.2em;
+            line-height: 1.5em;
+            clear: left;
+        }
+    }
+
+
+    .site-title,
+    .subtitle {
+        position: relative;
+        left: 40%;
+        font-family: $futura;
+        font-size: 18px;
+
+
+        @media (min-width: $medium-screen) {
+            font-size: 23px;
+        }
+
+        @media (min-width: $medium-large-screen) {
+            font-size: 29px;
+        }
+
+
+        @media (min-width: $large-screen) {
+            left: 50%;
+            font-size: 34px;
+            line-height: 40px;
+            width:  auto;
+        }
+
+        @media (max-device-width: $large-screen) 
+           and (orientation: landscape) {
+            font-size: 29px!important;
+        }
+
+    }
+
+    .site-title { font-weight: 700; }  
+
+    .subtitle { font-weight: 500; }   
+
+
+    .button {
+        position: relative;
+        left: 40%;
+        display: none;
+
+        @media (min-width: $medium-large-screen) {
+            display: block;
+        }
+
+        @media (min-width: $large-screen) {
+            left: 50%;
+        }
+
+
+
+    }
+
+
+}
+
+
+.starring-container {
+    position: relative;
+    margin-top: 20px;
+    background: $starring_background;
+    opacity: 0.89;
+    //height: 100px;
+    z-index: 9999;
+    width: 100%;
+    padding: 5px 0;
+
+
+
+    @media (min-width: $medium-screen) {
+    
+        position: absolute;
+        bottom: 0;
+    }
+/*
+    @media (max-device-width: $large-screen) 
+           and (orientation: landscape) {
+        position: relative!important;
+        bottom: auto!important;
+    }
+*/
+
+    a.starring-link {
+        display: none;
+        width: 100%;
+        text-align: center;
+        font-family: $futura;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+        color: $colour_white;
+
+        @media (min-width: $medium-large-screen) {
+            display: block;
+        }
+
+
+    }
+
+    .button {
+        display: block;
+        margin: 20px auto;
+
+        @media (min-width: $medium-large-screen) {
+            display: none;
+        }
+
+    }
+}
+
+
+
+
+// Main area showcasing the lineup
+.lineup {
+
+    background: $colour_background;
+
+            .column-twothirds {
+            padding: 75px 0;
+
+
+            @media (min-width: $large-screen) {
+                margin-top: 0;
+            }
+        }
+
+    .column {
+        padding: 1%;
+
+
+    }
+
+    p { 
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 28px;
+        line-height: 40px;
+        color: $standard_text;
+        text-align: center;
+        margin: 0;
+
+        &.starring-text {
+            font-family: $futura;
+            font-size: 28px;
+            font-weight: 700;
+            color: $colour_gold;
+            padding: 1em 0;
+
+            @media (min-width: $medium-screen) {
+                display: none;
+            }
+
+            @media (max-device-width: $large-screen) 
+               and (orientation: landscape) {
+                display: block!important;
+            }
+        }
+
+        span.surname {
+            display: block;
+            font-weight: 700;
+            line-height:33px;
+            text-transform: uppercase;
+        }
+
+        &.twitter {
+
+            line-height: 9px; 
+            margin-bottom: 20px;
+
+            a { 
+                font-family: $museo;
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 29px;
+                color: $colour_green; 
+
+                &:hover {}
+            }
+        }
+
+        &.more {
+           font-size: 22px;
+        }
+
+        &.technicolor {
+            font-family: $futura;
+            font-size: 28px;
+            font-weight: 700;
+            color: $colour_gold;
+            line-height: 40px;
+            margin: 30px auto 40px auto;
+            padding-bottom: 3px;
+            background: url("../img/border-yellow.png") no-repeat bottom center;
+        }
+    }
+
+    
+
+}
+
+
+.footer {
+
+    background: $colour_background;
+
+    p {
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 27px;
+        color: $standard_text;
+        text-align: center;
+
+        @media (min-width: $medium-screen) {
+            text-align: left;
+            float: left;
+        }
+    }
+
+
+    border-top: solid 1px $line_colour;
+    border-bottom: solid 1px $line_colour;
+
+    .button {
+        background: $colour_gold;
+        color: $colour_white;
+        display: block;
+        margin: 20px auto;
+
+        &:hover {
+            background: $colour_green;
+            color: $colour_white;
+        }
+
+        @media (min-width: $medium-screen) {
+             float: right;
+        }
+    }
+
+}
+
+
+.sponsors {
+
+    .column-onehalf {
+        margin: 35px auto; 
+    }
+
+    .starring-text {
+        font-family: $futura;
+        font-size: 28px;
+        font-weight: 700;
+        color: $standard_text;
+        padding: 0;
+        text-align: center;
+    }
+
+    a {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+
+        img { 
+            max-width: 175px; 
+            margin: 20px auto;
+        }
+    }
+}
+
+
+
+.credits {
+
+    background: $colour_background;
+
+    p {
+        font-family: $museo;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 20px;
+        color: $standard_text;
+        text-align: center;
+        margin: 20px auto;
+
+        a { 
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: $futura;
+            color: $standard_text;
+        }
+
+        strong { font-size: 14px; }
+
+        @media (min-width: $medium-screen) {
+
+        }
+    }
+
+
+    border-top: solid 1px $line_colour;
+}
+
+
+@media (min-width: $medium-screen) {
+
+
+}
+
+@media (min-width: $large-screen) {
+
+}
+

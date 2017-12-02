@@ -1,0 +1,67 @@
+{% model "speakers.json" %}
+{% block title %}Speakers{% endblock %}
+{% block open-wrapper %}
+{% endblock %}
+{% block content %}
+<div class="hero general__hero hero--short">
+    <div class="wrapper">
+        <h1>Our Speakers</h1>
+        <p class="subtitle"><span>They came to save the universe</span></p>
+        <p class="subtitle"><span>one pixel at a time</span></p>
+    </div>
+    <div class="general__hero-monster-dude"></div>
+</div>
+<main class="page-content">
+    <div class="wrapper">
+        {% for speaker in model.speaker %}
+            <div class="speaker" id="{{ speaker.bookmark_link }}">
+                <div class="speaker__details">
+                    <div class="speaker-unit--photo">
+                        <div class="speaker__photo">
+                            <img src="assets/img/speakers/{{ speaker.tv_img }}" alt="{{ speaker.firstname }} {{ speaker.surname }} photo" />
+                        </div>
+                    </div>
+                    <div class="speaker-unit--description">
+                        <div class="speaker-unit--metadata speaker__metadata">
+                            <h2 class="speaker__name"><span>{{ speaker.firstname }}</span> {{ speaker.surname }}</h2>
+                            {% for org in speaker.organisations %}
+                                {% for value in org %}
+                                    <p class="speaker__org"><a href="{{ org[forloop.index0].url }}" target="_blank">{{ org[forloop.index0].name }}</a></p>
+                                {% endfor %}
+                            {% endfor %}
+                        </div>
+                        <div class="speaker-unit--metadata speaker__metadata">
+                            {% for org in speaker.organisations %}
+                                {% for value in org %}
+                                    {% if org[forloop.index0].url %}
+                                        <p class="speaker__org-url"><a href="{{ org[forloop.index0].url }}" target="_blank">{{ org[forloop.index0].short_url }}</a></p>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                            <p class="speaker__twitter"><a href="https://www.twitter.com/{{ speaker.twitter }}">@{{ speaker.twitter }}</a></p>
+                        </div>
+                    </div>
+                    <div class="speaker-unit--description">
+                        <div class="speaker__description">
+                            {{ speaker.description }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</main>
+<div class="buy--tickets" id="buy--tickets-button">
+    <a href="/tickets">
+        <div class="buy--tickets_button">
+            Buy Tickets
+        </div>
+        <div class="buy--tickets_button-bg" id="buy--tickets-button-swirl">
+            <img src="{{ "swirl-for-button.svg" | asset_url }}" alt="But Tickets background">
+        </div>
+    </a>
+</div>
+
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}

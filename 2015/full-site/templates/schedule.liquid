@@ -1,0 +1,298 @@
+{% model "speakers.json" %}
+{% block title %}Schedule{% endblock %}
+{% block open-wrapper %}
+{% endblock %}
+{% block content %}
+<div class="hero general__hero hero--short">
+    <div class="wrapper">
+        <h1>The day ahead</h1>
+        <p class="subtitle subtitle__single"><span>A terrifying look into the world of tomorrow&hellip;</span></p>
+    </div>
+    <div class="general__hero-monster-dude"></div>
+</div>
+<main class="page-content">
+    <div class="wrapper">
+        <div class="schedule__grid-row">
+            <div class="schedule__primary-grid-unit">
+            <ol class="big-schedule-list">
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    8:30<span class="meridian">am</span>
+                    </div>
+                </div>
+                <div class="schedule-unit--entry">
+                    <h2 class="schedule__agenda-name">Registration</h2>
+                    <div class="schedule__description">
+                        <p>Collect your badge and conference bag, enjoy a chat and a coffee</p>
+                    </div>
+                </div>
+            </li>
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    9:15<span class="meridian">am</span>
+                    </div>
+                </div>
+                <div class="schedule-unit--entry">
+                    <h2 class="schedule__agenda-name">Opening</h2>
+                    <div class="schedule__description">
+                        <p>Kirsty and Zach welcome you to the Shropgeek (R)Evolution</p>
+                    </div>
+                </div>
+            </li>
+
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                        9:30<span class="meridian">am</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:2 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    10:15<span class="meridian">am</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:5 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    11:00<span class="meridian">am</span>
+                    </div>
+                </div>
+                <div class="schedule-unit--entry">
+                    <h2 class="schedule__agenda-name">Break</h2>
+                </div>
+            </li>
+
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    11:20<span class="meridian">am</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:6 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    11:40<span class="meridian">am</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:8 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    12:00<span class="meridian">pm</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:7 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    12:20<span class="meridian">pm</span>
+                    </div>
+                </div>
+                <div class="schedule-unit--entry">
+                    <h2 class="schedule__agenda-name">Lunch</h2>
+                    <div class="schedule__description">
+                        <p><strong>Take a look at the <a href="/location/#lunch">Location page</a> to get some ideas of where to go for lunch</strong></p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    2:20<span class="meridian">pm</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:1 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    3:05<span class="meridian">pm</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:4 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    3:50<span class="meridian">pm</span>
+                    </div>
+                </div>
+                <div class="schedule-unit--entry">
+                    <h2 class="schedule__agenda-name">Break</h2>
+                </div>
+            </li>
+
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    4:10<span class="meridian">pm</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:3 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    4:55<span class="meridian">pm</span>
+                    </div>
+                </div>
+                {% for speaker in model.speaker limit:1 offset:0 %}
+                    <div class="schedule-unit--entry">
+                        <h2 class="schedule__speaker-name">
+                            <a href="speakers#{{ speaker.bookmark_link }}">{{ speaker.firstname }} {{ speaker.surname }}</a>
+                        </h2>
+                        <p class="schedule__talk-title">{{ speaker.talk_title }}</p>
+                        <div class="schedule__description">
+                            {{ speaker.talk_description }}
+                        </div>
+                    </div>
+                {% endfor %}
+            </li>
+
+
+            <li class="schedule-item">
+                <div class="schedule-unit--time">
+                    <div class="schedule__time">
+                    5:25<span class="meridian">pm</span>
+                    </div>
+                </div>
+                <div class="schedule-unit--entry">
+                    <h2 class="schedule__agenda-name">Close</h2>
+                    <div class="schedule__description">
+                        <p>Kirsty and Zach wrap up the day</p>
+                    </div>
+                </div>
+            </li>
+        </ol>
+        </div>
+            <div class="schedule__secondary-grid-unit">
+                <div class="sidebar">
+                <h2><a href="/fringe/">Fringe events</a></h2>
+
+                <div class="schedule__fringe-teaser">
+                    <h3>Shropgeek Rebellion</h3>
+                    <p>7:00pm, Thursday September 24th 2015</p>
+                    <p><a href="/fringe#rebellion" class="more-info">More information</a></p>
+                </div>
+                <div class="schedule__fringe-teaser">
+                    <h3>After party</h3>
+                    <p>7:30pm, Friday September 25th 2015</p>
+                    <p><a href="/fringe#party" class="more-info">More information</a></p>
+                </div>
+                <div class="schedule__fringe-teaser">
+                    <h3>Shropgeek Breakfast</h3>
+                    <p>9:30am, Saturday September 26th 2015</p>
+                    <p><a href="/fringe#breakfast" class="more-info">More information</a></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}

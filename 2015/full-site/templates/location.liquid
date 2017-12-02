@@ -1,0 +1,211 @@
+{% block title %}Location{% endblock %}
+{% block open-wrapper %}
+{% endblock %}
+{% block content %}
+<div class="hero general__hero hero--short">
+    <div class="wrapper">
+        <h1>Shrewsbury</h1>
+        <p class="subtitle"><span>More spectacular than an adventure</span></p>
+        <p class="subtitle"><span>beyond space and time</span></p>
+    </div>
+    <div class="general__hero-monster-dude"></div>
+</div>
+<main class="page-content page-content__location">
+    <div class="conference-centre">
+        <div class="map page">
+            <div class="conference-centre-info">
+                <div id="directionsPanel"></div>
+                <img src="{{ "theatre-severn-thumb.jpg" | asset_url }}" alt="Photo of the Theatre Severn, Shrewsbury">
+                <div class="vcard">
+                    <div class="fn org">The Walker Theatre</div>
+                    <div class="adr">
+                        <div class="street-address">
+                            <span>Theatre Severn</span>
+                            <span>Frankwell Quay</span>
+                        </div>
+                        <span class="locality">Shrewsbury</span>
+                         <span class="region">Shropshire</span>
+                         <div class="postal-code">SY3 8FT</div>
+                         <a href="https://www.google.co.uk/maps/dir//Theatre+Severn,+Frankwell+Quay,+Shrewsbury+SY3+8FT,+United+Kingdom/@52.710636,-2.757613,15z/data=!4m12!1m3!3m2!1s0x0:0x2db80e864a447bcf!2sTheatre+Severn!4m7!1m0!1m5!1m1!1s0x487a9e5703dd4521:0x2db80e864a447bcf!2m2!1d-2.757613!2d52.710636" target="_blank">Get directions</a>
+                    </div>
+                </div>
+            </div>
+            <div id="map-canvas" class="map-canvas">
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="conference-centre--grid-row">
+                <div class="conference-centre--grid-unit">
+                    <h2>Theatre Severn</h2>
+                    <p>Theatre Severn was officially opened on 25 March 2009 and is situated on Frankwell Quay, a stunning riverside location and one of the main gateways into the town.</p>
+                    <h3>Arriving by public transport</h3>
+                    <p>If you arrive in Shrewsbury by train, the theatre is just a 10 minute walk along the riverside from the station. Or a couple of minutes less if arriving by bus at the main bus depot.</p>
+                    <p>Directions on foot: <a href="https://goo.gl/maps/8PqnT" target="_blank">from the train station</a> and <a href="https://goo.gl/maps/lfjZ7" target="_blank">from the bus depot</a></p>
+                </div>
+                <div class="conference-centre--grid-unit">
+                    <img src="{{ "theatre-severn-lge.jpg" | asset_url }}" alt="Photo of Theatre Severn">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="location__shrewsbury">
+        <div class="wrapper">
+            <h2>Shrewsbury</h2>
+            <p class="subtitle"><span>The town of flowers</span></p>
+            <div class="shrewsbury__grid-row">
+                <div class="shrewsbury__intro--grid-unit">
+                    <div class="videoWrapper">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TTRYWwhopSs" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="shrewsbury__intro--grid-unit">
+                    <p>(R)Evolution is held in Shrewsbury: birthplace of Charles Darwin, Shrewsbury is set amidst glorious countryside near to the Welsh Borders. It boasts over 600 listed buildings including the Castle, now a regimental museum and the world-famous Shrewsbury Abbey.</p>
+                    <p>Shrewsbury is home to Shropgeek, part of a thriving tech industry stretching from the West Midlands to the Welsh border.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shrewsbury__travel">
+        <div class="wrapper">
+            <h2>Travel</h2>
+            <p>Shrewsbury is less than an hour from Birmingham, and 1 hour 40 from Manchester, Liverpool and Nottingham.</p>
+            <div class="shrewsbury__grid-row">
+                <div class="shrewsbury__travel--grid-unit">
+                    <h3 class="push-top">By car</h3>
+                    <p>Shrewsbury connects to the M6 and motorway network via the M54. The A49, A5, A53, A458 all make Shrewsbury easily accessible.</p>
+                </div>
+                <div class="shrewsbury__travel--grid-unit">
+                    <h3 class="push-top">By rail</h3>
+                    <p>Shrewsbury train station is in the centre of the town and is linked by a regular main line rail service.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="shrewsbury__accomodation">
+        <div class="wrapper">
+            <h2>Where to stay</h2>
+            <div class="shrewsbury__grid-row">
+                <div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.prince-rupert-hotel.co.uk/" target="_blank">The Prince Rupert</a></h3>
+                        <div class="addr">
+                            <p class="street-address">Butcher Row, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 1UQ</span></p>
+                        </div>
+                        <p class="tel">01743 499955</p>
+                    </div>
+                </div><!--
+                --><div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.premierinn.com/en/hotel/SHRSMI/shrewsbury-town-centre" target="_blank">Premier Inn</a></h3>
+                        <div class="addr">
+                            <p class="street-address">Smithfield Road, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 1QB</span></p>
+                        </div>
+                        <p class="tel">0871 527 9402</p>
+                    </div>
+                </div><!--
+                --><div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.oldpostofficepub.co.uk/" target="_blank">The Old Post Office</a></h3>
+                        <div class="addr">
+                            <p class="street-address">1 Milk Street, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 1SZ</span></p>
+                        </div>
+                        <p class="tel">01743 236019</p>
+                    </div>
+                </div><!--
+                --><div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.jdwetherspoon.co.uk/home/pubs/the-shrewsbury-hotel" target="_blank">The Shrewsbury Hotel</a></h3>
+                        <div class="addr">
+                            <p class="street-address">Bridge Place, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 1PU</span></p>
+                        </div>
+                        <p class="tel">01743 236203</p>
+                    </div>
+                </div><!--
+                --><div class="shrewsbury__accomodation--grid-unit">
+                    <div class="hotel vcard">
+                        <h3 class="fn org url"><a href="http://www.thelionhotelshrewsbury.com/" target="_blank">The Lion Hotel</a></h3>
+                        <div class="addr">
+                            <p class="street-address">Wyle Cop, Shrewsbury</p>
+                            <p class="locality">Shropshire <span class="postal-code">SY1 11UY</span></p>
+                        </div>
+                        <p class="tel">01743 353107</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <span class="anchor" id="lunch"></span>
+    <div class="about-shrewsbury__food-and-drink">
+        <div class="wrapper">
+            <h2>Food and Drink</h2>
+            <h3>Lunch</h3>
+            <div class="shrewsbury__food-and-drink__grid-row">
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="https://www.facebook.com/thebirdsnestcafe">The Birds nest</a></h4>
+                    <p>Coffee, cake and lunch amongst the hustle and bustle of the market hall</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://www.barkworths.co.uk/bar">St Pierre Seafood Bar</a></h4>
+                    <p>A range of seafood, salads and soups made using fish fresh from their counter</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://bit.ly/1IgJHFX">Mayuree's House of Yum</a></h4>
+                    <p>Authentic Thai cuisine</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://shrewsburycoffeehouse.co.uk">Shrewsbury Coffee House</a></h4>
+                    <p>Has Bean Coffee and light lunches</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://www.boathouseshrewsbury.co.uk">The Boathouse Inn</a></h4>
+                    <p>Specialising in pub classics with a twist</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://bit.ly/1SzR90k">Pizza Express</a></h4>
+                    <p>Pizza!! Oh, and other Italian dishes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-shrewsbury__food-and-drink">
+        <div class="wrapper">
+            <h3>Evening</h3>
+            <div class="about-shrewsbury__food-and-drink__grid-row">
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://www.thealb.co.uk/">The Alb</a></h4>
+                    <p>Home of the #shropgeeksocial and our Rebellion events. Bar Food / Bistro and Restaurant menus available.</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://www.eatupshrewsbury.co.uk/">Eat up</a></h4>
+                    <p>Coffee, hearty lunches and amazing cakes</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://www.brunningandprice.co.uk/armoury/">The Armoury</a></h4>
+                    <p>Gastropub on the riverside</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://www.momonoki.co.uk">Momo-no-ki</a></h4>
+                    <p>Modern and vibrant Ramen Noodle Bar severing authentic Asian cuisine</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://www.thecornhouse.co.uk/">The Cornhouse</a></h4>
+                    <p>Bar and brasserie serving British dishes with global twists, coffee and drinks</p>
+                </div>
+                <div class="about-shrewsbury__food-and-drink__grid-unit">
+                    <h4 class="fn org url"><a href="http://www.thecornhouse.co.uk/">Casa Naranjo</a></h4>
+                    <p>Authentic Spanish Tapas bar</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
+{% block close-wrapper %}
+{% endblock %}
+{% block scripts %}
+    {{ "map.min.js" | asset_url | script_tag }}
+{% endblock %}

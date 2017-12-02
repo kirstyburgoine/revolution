@@ -1,0 +1,195 @@
+{
+  "title": "Speakers",
+  "speaker": [
+    {
+      "firstname": "Andrew",
+      "surname": "CLARKE",
+      "organisations": [
+        [
+          {
+            "name": "Stuff and Nonsense",
+            "url": "http://stuffandnonsense.co.uk",
+            "short_url": "stuffandnonsense.co.uk"
+          }
+        ]
+      ],
+      "photo": "andrew-clarke.jpg",
+      "tv_img": "andrew-clarke-tv.png",
+      "twitter": "malarkey",
+      "description": "<p>Andrew Clarke is an art director and web designer at the <a href=\"http://stuffandnonsense.co.uk\" target=\"_blank\">UK website design</a> studio &#39;Stuff and Nonsense&#39; where he designs websites and applications for clients from around the world. Based in North Wales, he's also the author of two web design books, Transcending CSS and Hardboiled Web Design, his many conference presentations and ten years of contributing to the web design community. Jeffrey Zeldman once called him a &quot;triple talented bastard&quot;. If you know of Jeffrey, you'll know how happy that made him.</p>",
+      "bookmark_link": "andrew-clarke",
+      "talk_title": "Creativity Over Predictability",
+      "talk_description": "<p>Our industry has matured into something that’s very different from the almost joyfully naive, creative designer’s playground that it was when I started. While we focus our thoughts onto processes, methods and mechanics, instead of ideas, we’re losing the creative ‘soul’ of our work. I’m hopeful that all’s not lost and that we can make work that’s memorable if we focus as much on creativity as we do on implementation.</p>",
+      "talk_time": "16:55pm"
+    },
+    {
+      "firstname": "Seb",
+      "surname": "LEE-DELISLE",
+      "organisations": [
+        [
+          {
+            "name": "Seb.ly",
+            "url": "http://seb.ly",
+            "short_url": "seb.ly"
+          }
+        ]
+      ],
+      "photo": "seb-lee-delisle.jpg",
+      "tv_img": "seb-lee-delisle-tv.png",
+      "twitter": "seb_ly",
+      "description": "<p><a href=\"http://seb.ly\" target=\"_blank\">Seb Lee­-Delisle</a> is a digital artist and speaker who uses computers to engage with people and inspire them.</p><p>As an artist, he likes to make interesting things from code that encourage interaction and playfulness from the public. Notable projects include <a href=\"http://seb.ly/work/lunar-trails/\" target=\"_blank\">Lunar Trails</a>, featuring a 3m wide drawing machine, and <a href=\"http://pixelpyros.org/\" target=\"_blank\">PixelPyros</a>, nationwide in 2013.</p><p>As a speaker he demystifies programming and explores its artistic possibilities. His presentations and workshops enable artists to overcome their fear of code and encourage programmers of all backgrounds to be more creative and imaginative.</p><p>He won 3 Microsoft Critter awards in 2013, including Web Personality of the Year and Voice of the Year (best presenter) and he was Technical Director on Big and Small, the BBC project that won a BAFTA in 2009. Notable clients include BBC, Lego, Sony, Microsoft, Google, MLB, Nickelodeon, Philips, and Unilever.</p>",
+      "bookmark_link": "seb-lee-delisle",
+      "talk_title": "Playing with code",
+      "talk_description": "<p>Venturing into the unknown is scary, but fun things happen when you try new things. Seb will show you that it's rewarding to get out of your comfort zone and blur the boundaries between artist and coder. He'll be talking about his recent experiments with lasers for his digital fireworks display, PixelPyros, and of course, expect some dangerous live demos.</p>",
+      "talk_time": "00:00am"
+    },
+    {
+      "firstname": "Emma",
+      "surname": "MULQUEENY",
+      "organisations": [
+        [
+          {
+            "name": "Rewired State / Young Rewired State",
+            "url": "http://emmamulqueeny.co.uk",
+            "short_url": "emmamulqueeny.co.uk"
+          }
+        ]
+      ],
+      "photo": "emma-mulqueeny.jpg",
+      "tv_img": "emma-mulqueeny-tv.png",
+      "twitter": "hubmum",
+      "description": "<p>Emma is the founder of <a href=\"http://rewiredstate.org\" target=\"_blank\">Rewired State</a> and <a href=\"http://yrs.io\" target=\"_blank\">Young Rewired State</a>, is a Commissioner for the Speaker's Commission on Digital Democracy and a Google Fellow.</p><p>She has recently been included in the 166th annual edition of Who’s Who, voted onto the Wired 100 list, Tech City 100, BIMA Hot 100, has been voted one of the top ten women in technology by The Guardian, into the top ten Tech Heroes for Good by NESTA, named as one of the 25 most influential women in IT by Computer Weekly and one of 2014’s 50 most incredible women in STEM.</p><p>Emma writes regularly for the British Press and on her own blog, speaks on radio and on television, is best known for her campaign: 'Year 8 is too Late' (encouraging girls into technology subjects) and insights into the social digital generation: the 97ers.</p>",
+      "bookmark_link": "emma-mulquenny",
+      "talk_title": "The 97ers",
+      "talk_description": "<p>Emma will be introducing you to the 97ers - a very interesting sub­category of millenials. She will talk about how they are learning, sharing, influencing and breaking things better for the children growing up in their wake.</p>",
+      "talk_time": "09:30am"
+    },
+    {
+      "firstname": "Joe",
+      "surname": "LEECH",
+      "organisations": [
+        [
+          {
+            "name": "UX Consultant - mrjoe.uk",
+            "url": "http://mrjoe.uk",
+            "short_url": "mrjoe.uk"
+          }
+        ]
+      ],
+      "photo": "joe-leech.jpg",
+      "tv_img": "joe-leech-tv.png",
+      "twitter": "mrjoe",
+      "description": "<p><a href=\"https://twitter.com/mrjoe\" target=\"_blank\">@mrjoe</a>, Joe to his friends, is the author of the book <a href=\"http://fivesimplesteps.com/products/psychology­for­designers\" target=\"_blank\">Psychology of Designers</a>. He sometimes writes for Smashing Magazine, Net Magazine and others about how to use psychology to improve the user.</p><p>A recovering neuroscientist, then a spell as a elementary school teacher, Joe started his UX career 12 years ago. He has worked with organisations like Disney, eBay, Glenfiddich and Marriott.</p>",
+      "bookmark_link": "jo-leech",
+      "talk_title": "How to Design with Science without Loosing the Magic",
+      "talk_description": "<p>We've all had that experience, that feeling when we poured our heart and soul into some UX or design work only for it to be not taken seriously, criticised or worse, ignored.</p><p>How telling stories, understanding business, talking data &amp; numbers and psychology can all be used together to get good design done. All the time making sure we don't loose that magic inherent in great design.</p>",
+      "talk_time": "16:10pm"
+    },
+    {
+      "firstname": "Sally",
+      "surname": "JENKINSON",
+      "organisations": [
+        [
+          {
+            "name": "Records Sound the Same",
+            "url": "http://recordssoundthesame.com",
+            "short_url": "recordssoundthesame.com"
+          }
+        ]
+      ],
+      "photo": "sally-jenkinson.jpg",
+      "tv_img": "sally-jenkinson-tv.png",
+      "twitter": "sjenkinson",
+      "description": "<p>Sally is a technical consultant and solutions architect who, through her company <a href=\"http://recordssoundthesame.com\" target=\"_blank\">Records Sound the Same</a>, helps both big and small businesses with their discovery, planning, and strategic digital decisions. She focuses on using technology to enhance experiences, and is a speaker, coder, author, and gamer.</p>",
+      "bookmark_link": "sally-jenkinson",
+      "talk_title":"All these moments will be lost in time: the web, the future, and us",
+      "talk_description":"<p>As web professionals we’re used to hearing about the virtues of shipping fast and iterating regularly in order to meet changing needs, but how do we ensure that the projects that we’re planning now are still as relevant and robust when they launch in the future... and beyond? How do we prepare for the unknowns and constant shifts in technology; what can we do to progress the evolution of the web itself; and how do we, as individuals, ensure that our skills are as relevant as ever in this rapidly changing world?</p><p>In this talk we’ll look at past visions of the future, what we can learn from these lessons, and how to apply this in a practical sense to the work that we do.</p>",
+      "talk_time": "15:05pm"
+    },
+    {
+      "firstname": "Matt",
+      "surname": "JUKES",
+      "organisations": [
+        [
+          {
+            "name": "Head of Digital @ The Office of National Statistics",
+            "url": "http://digitalbydefault.com/",
+            "short_url": "digitalbydefault.com"
+            
+          }
+        ]
+      ],
+      "photo": "matt-jukes.jpg",
+      "tv_img": "matt-jukes-tv.png",
+      "twitter": "jukesie",
+      "description": "<p>Matt is Head of Digital at The Office of National Statistics. The majority of his 15 year career has been spent managing digital teams in the space where research and government meet. This has included being the first Web Manager at the Economic and Social Research Council, responsibility for digital at Jisc, working with the Higher Education Funding Council for England, time at the Medical Research Council overhauling their online offerings and most recently joining the ONS to undertake the ambitious project of trying to retrieve the reputation of their website.</p>",
+      "bookmark_link": "matt-jukes",
+      "talk_title": "The 'Internet of Public Service'",
+      "talk_description": "<p>According to Ofcom ‘public service broadcasting’ is defined as;</p><p>&quot;TV programmes that are broadcast for the public benefit rather than for purely commercial purposes.&quot;</p><p>More and more I believe there is a need to embrace and support something like a 'public service internet'. Harnessing an antidote to the trivialisation of the web. Something to help push back against the hordes of trolls.</p><p>We need to work together to deliver on the promise of the web but in a way that does not patronise those who find comfort in the world of Facebook and PlayBuzz 'What Superhero Am I?' quizzes. That is the challenge.</p>",
+      "talk_time": "00:00am"
+    },
+    {
+      "firstname": "Emma",
+      "surname": "DAVIS",
+      "organisations": [
+        [
+          {
+            "name": "The Web Bakery",
+            "url": "http://thewebbakery.co.uk",
+            "short_url": "thewebbakery.co.uk"
+          }
+        ]
+      ],
+      "photo": "emma-davis.jpg",
+      "tv_img": "emma-davis-tv.png",
+      "twitter": "thewebbakery",
+      "description": "<p>Emma is owner, director, front-end and back-end developer (and everything else in-between) at her company The Web Bakery. She has been building websites since 1999 when she did a website for her husband's business and wanted to get back to her design roots. This was back in the dark ages of Frontpage, and yes, she will admit to using it at the start, followed along closely by Dreamweaver until she taught herself to code properly with HTML then CSS, PHP and Javascripts.</p><p>She started her own website business in 2002 and added 2 more businesses (related to dog agility - her hobby at the time) over the years but has now closed those down to focus solely on her passion of creating websites; though now she only codes and gets others to do the design work as she has realised that's what she really loves to do.</p><p>Oh, and by the way, she is a Shropgeek :)",
+      "bookmark_link": "emma-davis",
+      "talk_title":"Talk Title TBC",
+      "talk_description":"<p>Talk Description TBC</p>",
+      "talk_time": "00:00am"
+    },
+    {
+      "firstname": "Cole",
+      "surname": "HENLEY",
+      "organisations": [
+        [
+          {
+            "name": "Cole Henley",
+            "url": "http://cole007.net",
+            "short_url": "cole007.net"
+          }
+        ]
+      ],
+      "photo": "cole-henley.jpg",
+      "tv_img": "cole-henley-tv.png",
+      "twitter": "cole007",
+      "description": "<p><a href=\"https://twitter.com/cole007\" target=\"_blank\">Cole Henley</a> is technical director at <a href=\"http://ournameismud.co.uk\" target=\"_blank\">Mud</a> and a recovering archaeologist. He juggles his time between front-end code, Content Management Systems and his two children, neither of which degrade gracefully.</p><p>As well as overseeing the technical delivery at a successful digital agency, Cole lectures on Web Design at the <a href=\"http://www.websitearchitecture.co.uk\" target=\"_blank\">University of Greenwich</a>, is a regular contributor to <a href=\"http://www.creativebloq.com/net-magazine\" target=\"_blank\">net Magazine</a> and organises the <a href=\"http://www.fivesimplesteps.com/products/http\" target=\"_blank\">SassXSW</a> meet-up.</p>",
+      "bookmark_link": "cole-henley",
+      "talk_title": "Choose your battles: tales from the front lines of a digital agency",
+      "talk_description": "<p>Whether you are a freelancer or an agency ‘money’ can often be seen as a dirty word. A lot of us feel uncomfortable talking about money or charging accurately for our time. If we marry this with the constant need to adapt and learn as new technologies emerge it can be difficult to keep on top of running a business. Drawing on findings from the Freelance Rates survey and two years overseeing the technical delivery at successful digital agency Mud, this talk explores juggling the oft­ competing demands of purpose, profitability and play.</p>",
+      "talk_time": "12:00pm"
+    },
+    {
+      "firstname": "Jake",
+      "surname": "GILTSOFF",
+      "organisations": [
+        [
+          {
+            "name": "Adobe Typekit",
+            "url": "http://jke.me",
+            "short_url": "jke.me"
+          }
+        ]
+      ],
+      "photo": "jake-gilstoff.jpg",
+      "tv_img": "jake-gilstoff-tv.png",
+      "twitter": "designbyjake",
+      "description": "<p>Jake is a designer & front-end developer at Adobe Typekit and is passionate about type, typography, and the web. He was previously nominated for young designer of the year and once was invited to meet the queen. When not looking at a screen, he will either be riding a bike or drinking coffee.</p>",
+      "bookmark_link": "jake-gilstoff",
+      "talk_title": "The future(s) of typography",
+      "talk_description": "<p>Find out how to time­ travel & teleport with typography and why we as web designers and developers have such an important role in shaping the future of communication.</p>",
+      "talk_time": "00:00am"
+    }   
+  ]
+}
