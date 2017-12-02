@@ -1,0 +1,331 @@
+/* BODY
+------------------------------------------------------- */
+body { background: #062133; color: #FFF; }
+
+/* LAYOUT
+------------------------------------------------------- */
+#wrapper { background: #0E2839; }
+
+/* HYPERLINKS
+------------------------------------------------------- */
+a:link, a:visited { color: #51929C; text-decoration: none; }
+a:active, a:hover { color: #51929C; text-decoration: underline; }
+code a:hover { text-decoration: none; }
+
+/* HEADER
+------------------------------------------------------- */
+#header #site-title a { color: #809CAF; }
+#header #site-description { color: #FFF; }
+#header #site-feed a { background: url(../images/rss.png) no-repeat; }
+#header #site-email a { background: url(../images/email.png) no-repeat; }
+
+/* PAGE NAVIGATION
+------------------------------------------------------- */
+#page-menu { background: url(blue/menu-bg.png) repeat-x; }
+.sf-menu { border: 1px solid #031D2E; border-width: 0 1px 1px 0; float: left; }
+.sf-menu a { background: #062133; border: 1px solid #031D2E; border-width: 1px 0 0 1px; text-decoration: none; }
+.sf-menu .current_page_item a, .sf-menu .current_page_item a:hover, .sf-menu .current_page_ancestor a, .sf-menu .current_page_parent a { background: #09293E; border: 1px solid #031D2E; border-width: 1px 0 0 1px; color: #FFF !important; text-decoration: none; }
+.sf-menu a, .sf-menu a:visited  { color: #FFF; }
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active { background: #09293E; color: #FFF; }
+.sf-menu ul { border: 1px solid #031D2E; border-width: 0 1px 1px 0; }
+.sf-menu ul a { background: #062133; }
+.sf-menu ul a:hover { color: #FFF; }
+
+/* PORTFOLIO POSTS
+------------------------------------------------------- */
+#portfolio-wrapper { background: #102D41; color: #FFF; }
+#portfolio-wrapper .entry-title a { color: #809CAF; }
+#portfolio-wrapper .next-button { background: url(blue/next.png) no-repeat; }
+#portfolio-wrapper .next-button:hover { background: url(blue/next.png) no-repeat 0 -36px; }
+#portfolio-wrapper .view-portfolio { background: url(blue/view-portfolio.png) no-repeat; }
+#portfolio-wrapper .view-portfolio:hover { background: url(blue/view-portfolio.png) no-repeat 0 -36px; }
+#portfolio-wrapper .previous-button { background: url(blue/back.png) no-repeat; }
+#portfolio-wrapper .previous-button:hover { background: url(blue/back.png) no-repeat 0 -36px; }
+.ie6 #portfolio-wrapper .next-button:hover { background-position: 0 -35px; }
+.ie6 #portfolio-wrapper .view-portfolio:hover { background-position: 0 -35px; }
+.ie6 #portfolio-wrapper .previous-button:hover { background-position: 0 -35px; }
+
+/* GLOBAL BLOG POSTS
+------------------------------------------------------- */
+.hentry { border-bottom: 1px solid #102E41; color: #FFF; }
+.hentry .entry-title { color: #FFF; }
+.hentry .entry-title a { color: #809CAF; }
+.hentry .byline { background: #041A29; }
+.hentry .byline a { color: #337180; }
+.hentry .byline abbr { border: 0; }
+.hentry .page-link-title { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+.hentry .page-link a { background: #041A29; border: 1px solid #102E41; }
+.hentry .page-link a:active, .hentry .page-link a:hover { background: #041A29; border: 1px solid #102E41; text-decoration: none; }
+.hentry #post-details .post-date { border-right: 1px solid #CCC; }
+.hentry #post-details .preview-link { border-right: 1px solid #CCC; }
+
+/* HOME BLOG POSTS
+------------------------------------------------------- */
+#blog-category-link a { background: url(blue/view-blog.png) no-repeat; }
+#blog-category-link a:hover { background: url(blue/view-blog.png) no-repeat 0 -36px; }
+.ie6 #blog-category-link a:hover { background-position: 0 -35px; }
+
+/* STICKY BLOG POST
+------------------------------------------------------- */
+.sticky { background: #102D41; border: 1px solid #062133; }
+.sticky .entry-content { color: #FFF; }
+.sticky .entry-title a { color: #809CAF; }
+.sticky .page-link-title { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+.sticky .page-link a { background: #041A29; border: 1px solid #102E41; text-decoration: none; }
+.sticky .page-link a:active, .sticky .page-link a:hover { background: #102E41; border: 1px solid #102E41; }
+
+/* SINGLE BLOG POST
+------------------------------------------------------- */
+.single .entry-title { color: #FFF; border-bottom: 1px solid #102E41; }
+.single .entry-meta { border-top: 1px solid #102E41; }
+.single #post-details { border-bottom: 1px solid #102E41; }
+
+/* BLOG NAVIGATION
+------------------------------------------------------- */
+.nav-newer a { background: url(blue/newer.png) no-repeat; }
+.nav-newer a:hover { background: url(blue/newer.png) no-repeat 0 -36px; }
+.ie6 .nav-newer a:hover { background-position: 0 -35px; }
+
+.nav-previous a { background: url(blue/older.png) no-repeat; }
+.nav-previous a:hover { background: url(blue/older.png) no-repeat 0 -36px; }
+.ie6 .nav-previous a:hover { background-position: 0 -35px; }
+
+/* SOCIAL BOOKMARKS
+------------------------------------------------------- */
+#social-wrapper { border-bottom: 1px solid #102E41; color: #FFF; }
+#social-wrapper .blinklist { background: url(../images/bookmarks/blinklist.png) no-repeat; }
+#social-wrapper .delicious { background: url(../images/bookmarks/delicious.png) no-repeat; }
+#social-wrapper .digg { background: url(../images/bookmarks/digg.png) no-repeat; }
+#social-wrapper .facebook { background: url(../images/bookmarks/facebook.png) no-repeat; }
+#social-wrapper .google { background: url(../images/bookmarks/google.png) no-repeat; }
+#social-wrapper .reddit { background: url(../images/bookmarks/reddit.png) no-repeat; }
+#social-wrapper .rss { background: url(../images/bookmarks/rss.png) no-repeat; }
+#social-wrapper .stumbleupon { background: url(../images/bookmarks/stumbleupon.png) no-repeat; }
+#social-wrapper .technorati { background: url(../images/bookmarks/technorati.png) no-repeat; }
+#social-wrapper .twitter { background: url(../images/bookmarks/twitter.png) no-repeat; }
+
+/* RELATED POSTS
+------------------------------------------------------- */
+#related-wrapper .related-title { border-bottom: 1px solid #102E41; color: #FFF; }
+
+/* POPULAR POSTS
+------------------------------------------------------- */
+#popular-wrapper .popular-title { border-bottom: 1px solid #102E41; color: #FFF; }
+
+/* PAGES
+------------------------------------------------------- */
+.page .hentry { border: 0; }
+.page-title { border-bottom: 1px solid #102E41; color: #FFF; }
+.page-title .subscribe a { background: url(../images/rss-alt.png) no-repeat; }
+.page .edit-page-link a { background: url(blue/edit.png) no-repeat; }
+.page .edit-page-link a:hover { background: url(blue/edit.png) no-repeat 0 -36px; }
+.ie6 .page .edit-page-link a:hover { background-position: 0 -35px; }
+.search-no-results .hentry { border: 0; }
+
+/* CONTACT PAGE
+------------------------------------------------------- */
+#contact input.reset-comment { background: url(blue/reset.png) no-repeat; border: 0; }
+#contact input.reset-comment:hover { background: url(blue/reset.png) no-repeat 0 -36px; border: 0; }
+#contact input.submit-comment { background: url(blue/submit.png) no-repeat; border: 0; }
+#contact input.submit-comment:hover { background: url(blue/submit.png) no-repeat 0 -36px; border: 0; }
+.ie6 #contact input.reset-comment:hover { background-position: 0 -35px; }
+.ie6 #contact input.submit-comment:hover { background-position: 0 -35px; }
+
+/* ATTACHMENTS
+------------------------------------------------------- */
+.attachment .download { background: #EEE; border: 1px solid #102E41; }
+
+/* AUTHOR INFO
+------------------------------------------------------- */
+#author-info { background: #102D41; border: 1px solid #062133; }
+#author-info .author-email a { background: url(blue/email.png) no-repeat; }
+#author-info .author-email a:hover { background: url(blue/email.png) no-repeat 0 -36px; }
+#author-info .author-website a { background: url(blue/website.png) no-repeat; }
+#author-info .author-website a:hover { background: url(blue/website.png) no-repeat 0 -36px; }
+.ie6 #author-info .author-website a:hover { background-position: 0 -35px; }
+.ie6 #author-info .author-email a:hover { background-position: 0 -35px; }
+
+/* IMAGES
+------------------------------------------------------- */
+.wp-caption { background: #041A29; border: 1px solid #102E41; color: #EEE; }
+.wp-caption img { border: 0 solid #000; }
+
+/* WIDGET AREAS
+------------------------------------------------------- */
+.widget-title { background: #041A29; color: #FFF; }
+.subsidiary { background: #0E2839; border: 1px solid #102E41; }
+.subsidiary .widget { background: transparent; border: 0; padding-left: 0; padding-right: 0; }
+
+/* ABOUT WIDGET
+------------------------------------------------------- */
+.about .read-more a { background: url(blue/read-more.png) no-repeat; }
+.about .read-more a:hover { background: url(blue/read-more.png) no-repeat 0 -36px; }
+.ie6 .about .read-more a:hover { background-position: 0 -35px; }
+
+/* ADVERT WIDGET
+------------------------------------------------------- */
+.advertise-url a { background: url(blue/advertise.png) no-repeat; }
+.advertise-url a:hover { background: url(blue/advertise.png) no-repeat 0 -36px; }
+.ie6 .advertise-url a:hover { background-position: 0 -35px; }
+
+/* CALENDAR WIDGET
+------------------------------------------------------- */
+#wp-calendar { border: 1px solid #102E41; border-width: 1px 1px 1px 0; color: #FFF; }
+#wp-calendar caption { color: #FFF; }
+#wp-calendar th, #wp-calendar td { background: #0E2839; }
+#wp-calendar thead tr th { border: 1px solid #102E41; border-width: 0 0 0 1px; }
+#wp-calendar td { background: transparent; border: 1px solid #102E41; border-width: 1px 0 0 1px; }
+
+/* FLICKR WIDGET
+------------------------------------------------------- */
+.flickr .photostream a { background: url(blue/photostream.png) no-repeat; }
+.flickr .photostream a:hover { background: url(blue/photostream.png) no-repeat 0 -36px; }
+.ie6 .flickr .photostream a:hover { background-position: 0 -35px; }
+
+/* SOCIAL LINK WIDGET
+------------------------------------------------------- */
+.audiojungle-link { background: #102D41 url(../images/audiojungle.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.delicious-link { background: #102D41 url(../images/delicious.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.deviantart-link { background: #102D41 url(../images/deviantart.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.digg-link { background: #102D41 url(../images/digg.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.facebook-link { background: #102D41 url(../images/facebook.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.flashden-link { background: #102D41 url(../images/flashden.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.flickr-link { background: #102D41 url(../images/flickr.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.graphicriver-link { background: #102D41 url(../images/graphicriver.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.lastfm-link { background: #102D41 url(../images/lastfm.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.linkedin-link { background: #102D41 url(../images/linkedin.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.myspace-link { background: #102D41 url(../images/myspace.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.themeforest-link { background: #102D41 url(../images/themeforest.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.twitter-link { background: #102D41 url(../images/twitter.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.videohive-link { background: #102D41 url(../images/videohive.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.vimeo-link { background: #102D41 url(../images/vimeo.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.virb-link { background: #102D41 url(../images/virb.png) no-repeat 8px 8px; border: 1px solid #062133; }
+.youtube-link { background: #102D41 url(../images/youtube.png) no-repeat 8px 8px; border: 1px solid #062133; }
+
+/* TWITTER WIDGET
+------------------------------------------------------- */
+.twitter .follow a { background: url(blue/follow.png) no-repeat; }
+.twitter .follow a:hover { background: url(blue/follow.png) no-repeat 0 -36px; }
+.ie6 .twitter .follow a:hover { background-position: 0 -35px; }
+
+/* COMMENTS
+------------------------------------------------------- */
+#comments .comments-header { border-bottom: 1px solid #102E41; color: #FFF; }
+#comments .password-protected { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+
+/* ROLE: ADMINISTRATOR COMMENT
+------------------------------------------------------- */
+#comments-list .administrator { background: #062133; border: 1px solid #041A29; }
+#comments-list .administrator ul.children li.depth-2 { background: #062133; border: 1px solid #041A29; }
+#comments-list .administrator ul.children li.depth-3 { background: #062133; border: 1px solid #041A29; }
+#comments-list .administrator ul.children li.depth-4 { background: #062133; border: 1px solid #041A29; }
+#comments-list .administrator ul.children li.depth-5 { background: #062133; border: 1px solid #041A29; }
+
+/* ROLE: AUTHOR COMMENT
+------------------------------------------------------- */
+#comments-list .author { background: #062133; border: 1px solid #041A29; }
+#comments-list .author ul.children li.depth-2 { background: #062133; border: 1px solid #041A29; }
+#comments-list .author ul.children li.depth-3 { background: #062133; border: 1px solid #041A29; }
+#comments-list .author ul.children li.depth-4 { background: #062133; border: 1px solid #041A29; }
+#comments-list .author ul.children li.depth-5 { background: #062133; border: 1px solid #041A29; }
+
+/* ENTRY AUTHOR COMMENT
+------------------------------------------------------- */
+#comments-list .entry-author { background: #062133; border: 1px solid #041A29; }
+#comments-list .entry-author ul.children li.depth-2 { background: #062133; border: 1px solid #041A29; }
+#comments-list .entry-author ul.children li.depth-3 { background: #062133; border: 1px solid #041A29; }
+#comments-list .entry-author ul.children li.depth-4 { background: #062133; border: 1px solid #041A29; }
+#comments-list .entry-author ul.children li.depth-5 { background: #062133; border: 1px solid #041A29; }
+
+/* READER COMMENT
+------------------------------------------------------- */
+#comments-list .reader { background: #041A29; border: 1px solid #102E41; }
+#comments-list .reader ul.children li.depth-2 { background: #041A29; border: 1px solid #102E41; }
+#comments-list .reader ul.children li.depth-3 { background: #041A29; border: 1px solid #102E41; }
+#comments-list .reader ul.children li.depth-4 { background: #041A29; border: 1px solid #102E41; }
+#comments-list .reader ul.children li.depth-5 { background: #041A29; border: 1px solid #102E41; }
+
+/* COMMENT META
+------------------------------------------------------- */
+#comments .comment-meta { color: #FFF; }
+#comments .comment-reply-button a { background: url(blue/reply.png) no-repeat; }
+#comments .comment-reply-button a:hover { background: url(blue/reply.png) no-repeat 0 -36px; }
+.ie6 #comments .comment-reply-button a:hover { background-position: 0 -35px; }
+
+/* TRACKBACKS
+------------------------------------------------------- */
+#trackback-list li { border: 0; }
+
+/* RESPOND
+------------------------------------------------------- */
+#respond .form-label { color: #FFF; }
+#respond .comment-form-title { border-bottom: 1px solid #102E41; color: #FFF; }
+#respond input.reset-comment { background: url(blue/reset.png) no-repeat; border: 0; }
+#respond input.reset-comment:hover { background: url(blue/reset.png) no-repeat 0 -36px; border: 0; }
+#respond input.submit-comment { background: url(blue/submit.png) no-repeat; border: 0; }
+#respond input.submit-comment:hover { background: url(blue/submit.png) no-repeat 0 -36px; border: 0; }
+#cancel-comment-reply a { background: url(blue/cancel.png) no-repeat; }
+#cancel-comment-reply a:hover { background: url(blue/cancel.png) no-repeat 0 -36px; }
+.ie6 #cancel-comment-reply a:hover { background-position: 0 -35px; }
+
+/* COMMENT PAGINATION
+------------------------------------------------------- */
+.paginated-comment-links a { border: 1px solid #041A29; text-decoration: none; }
+.paginated-comment-links .current { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+.paginated-comment-links a:active, .paginated-comment-links a:hover { text-decoration: none; }
+
+/* FOOTER
+------------------------------------------------------- */
+#footer-wrapper .container { background: url(blue/footer-bg.png) repeat-x; color: #FFF; }
+#footer-wrapper .scroll-to-top a { background: url(blue/top.png) no-repeat; }
+
+/* LISTS
+------------------------------------------------------- */
+#content ul li, #sidebar ul li, #subsidiary-wrapper ul li { background: url(../images/bullet.png) no-repeat 0 7px; }
+
+/* TEXT ELEMENTS
+------------------------------------------------------- */
+pre { border: 1px solid #041A29; }
+fieldset { border: 1px solid #; }
+var, kbd, samp, code, pre { background: #102E41; }
+blockquote { border-left: 1px solid #102E41; color: #FFF; }
+abbr[title], acronym[title], dfn[title] { border-bottom: 1px dotted #102E41; }
+dl dt { border: 1px solid #102E41; border-width: 1px 1px 0 1px; }
+dl dd { border: 1px solid #102E41; }
+hr { border: 1px solid; border-color: #102E41 #041A29 #041A29 #041A29; }
+
+/* BUTTON ELEMENTS
+------------------------------------------------------- */
+button { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+button:hover { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+
+/* INPUT ELEMENTS
+------------------------------------------------------- */
+input { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+input:focus, input:hover { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+
+/* TEXTAREA
+------------------------------------------------------- */
+textarea { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+textarea:focus { background: #041A29; border: 1px solid #102E41; color: #FFF; }
+
+/* TABLE ELEMENTS
+------------------------------------------------------- */
+table { border: 1px solid #102E41; border-width: 1px 1px 0 0; }
+table tr th { border: 1px solid #102E41; border-width: 0 0 1px 1px; }
+table td { border: 1px solid #102E41; border-width: 0 0 1px 1px; }
+
+/* SPECIAL CLASSES
+------------------------------------------------------- */
+.required { color: #FF4B33; }
+.alert { background: #FFFBBC; border: 1px solid #E6DB55; color: #000; }
+.download { background: #7AC2D6; border: 1px solid #59838F; color: #000; }
+.error { background: #FFEBE8; border: 1px solid #C00; color: #000; }
+.note { background: #DDD; border: 1px solid #CCC; color: #000; }
+.warning { background: #FFFBBC; border: 1px solid #E6DB55; color: #000; }
+
+/* WP PAGENAVI
+------------------------------------------------------- */
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active { border: 1px solid #102E41; }
+.wp-pagenavi .current { border: 1px solid #102E41; }
+.wp-pagenavi a:hover { border: 1px solid #102E41; }

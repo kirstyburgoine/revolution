@@ -1,0 +1,10 @@
+<?php
+
+/*
+ *
+ * INDEX TEMPLATE
+ * THIS TEMPLATE SHOULD NOT BE SHOWN. IT IS A PLACEHOLDER.
+ *
+ */
+
+?>

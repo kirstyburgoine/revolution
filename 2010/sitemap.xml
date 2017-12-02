@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://2010.shropgeek-revolution.co.uk/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.1.3" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.4" -->
+<!-- generated-on="February 4, 2014 10:04 am" -->
+<!-- Debug: Total comment count: 1 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/</loc>
+		<lastmod>2010-09-27T23:14:31+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/gallery/zach-beauvais</loc>
+		<lastmod>2010-09-27T23:14:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/gallery/dan-catt</loc>
+		<lastmod>2010-09-27T23:12:23+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/gallery/katy-cowan</loc>
+		<lastmod>2010-09-27T23:07:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/gallery</loc>
+		<lastmod>2010-09-27T22:58:37+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/the-speakers</loc>
+		<lastmod>2010-09-27T22:29:52+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/the-organisers</loc>
+		<lastmod>2010-09-27T22:29:25+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/about-shropgeek</loc>
+		<lastmod>2010-09-27T22:29:18+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/the-event</loc>
+		<lastmod>2010-09-27T22:28:52+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/contact</loc>
+		<lastmod>2010-09-27T22:28:24+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/venue</loc>
+		<lastmod>2010-09-27T22:27:52+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 4: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/blog/the-theory-of-revolution</loc>
+		<lastmod>2010-07-11T14:59:01+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 18: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/blog/dan-catt</loc>
+		<lastmod>2010-07-10T22:46:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 22: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/blog/zach-beauvais</loc>
+		<lastmod>2010-07-08T00:33:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 20: Comments: 0 of 1 = 0 points -->
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/blog/katy-cowan</loc>
+		<lastmod>2010-07-08T00:23:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 1: Comments: 1 of 1 = 1 points -->
+	<url>
+		<loc>http://2010.shropgeek-revolution.co.uk/uncategorized/hello-world</loc>
+		<lastmod>2010-06-25T19:48:28+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

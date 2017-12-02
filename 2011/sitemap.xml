@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://2011.shropgeek-revolution.co.uk/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.2.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.4" -->
+<!-- generated-on="February 4, 2014 10:06 am" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/</loc>
+		<lastmod>2011-06-27T21:18:24+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/2010-revolution</loc>
+		<lastmod>2012-01-29T10:44:20+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 446: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/the-theory-of-revolution-2</loc>
+		<lastmod>2012-01-26T00:28:08+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 860: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/prizes</loc>
+		<lastmod>2012-01-26T00:27:34+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 853: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/duncan</loc>
+		<lastmod>2012-01-26T00:27:21+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 845: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/chris</loc>
+		<lastmod>2012-01-26T00:27:14+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 842: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/cake-pops</loc>
+		<lastmod>2012-01-26T00:27:07+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 837: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/revolution-2011</loc>
+		<lastmod>2012-01-26T00:26:54+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/the-2011-revolution/the-speakers-duncan-bloor</loc>
+		<lastmod>2012-01-26T00:02:11+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/the-2011-revolution/the-speakers-chris-thorpe</loc>
+		<lastmod>2012-01-25T23:56:49+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/the-2011-revolution/the-speakers-alex-hardie</loc>
+		<lastmod>2012-01-25T23:51:32+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/the-2011-revolution</loc>
+		<lastmod>2012-01-25T23:19:58+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/the-event</loc>
+		<lastmod>2012-01-25T22:26:22+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/the-event/the-conversation</loc>
+		<lastmod>2011-09-04T08:38:14+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/the-team</loc>
+		<lastmod>2011-09-04T07:59:08+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 686: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/news/on-the-night</loc>
+		<lastmod>2011-09-01T23:57:29+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 675: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/news/ghosts-and-geekery</loc>
+		<lastmod>2011-08-16T13:45:10+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 680: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/news/guest-host-for-local-geek-event</loc>
+		<lastmod>2011-08-16T13:43:30+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 666: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/news/geeks-get-together-in-aid-of-charity</loc>
+		<lastmod>2011-08-10T07:36:56+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/about-shropgeek</loc>
+		<lastmod>2011-07-04T08:17:21+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 456: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/line-up/duncan-bloor</loc>
+		<lastmod>2011-07-02T10:32:26+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/venue</loc>
+		<lastmod>2011-07-02T10:27:52+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 551: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/line-up/chris-thorpe</loc>
+		<lastmod>2011-06-29T17:16:57+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 459: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/line-up/alex-hardie</loc>
+		<lastmod>2011-06-29T17:16:27+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/2010-revolution/zach-beauvais</loc>
+		<lastmod>2011-06-28T11:11:31+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/2010-revolution/katy-cowan</loc>
+		<lastmod>2011-06-28T11:11:11+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/2010-revolution/dan-catt</loc>
+		<lastmod>2011-06-28T11:10:29+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 504: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/dan-2</loc>
+		<lastmod>2011-06-27T21:12:02+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 488: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/bags</loc>
+		<lastmod>2011-06-27T21:11:50+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 501: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/crowd</loc>
+		<lastmod>2011-06-27T21:11:40+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 498: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/home/zach</loc>
+		<lastmod>2011-06-27T21:10:06+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/2010-speakers</loc>
+		<lastmod>2011-06-26T11:57:15+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/contact</loc>
+		<lastmod>2010-09-27T22:28:24+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 20: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://2011.shropgeek-revolution.co.uk/blog/katy-cowan</loc>
+		<lastmod>2010-07-08T00:23:47+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

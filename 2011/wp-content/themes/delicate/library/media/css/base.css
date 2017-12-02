@@ -1,0 +1,126 @@
+/* BODY
+------------------------------------------------------- */
+html { 
+     -webkit-text-size-adjust:none;  
+}
+body { font: 12px/21px Verdana, Arial, Sans-Serif; }
+
+/* VERTICAL RHYTHM
+------------------------------------------------------- */
+address, dd, dl, fieldset, form, ol, p, pre, table, .entry-title, .wp-caption { margin-bottom: 10px; }
+
+/* HEADINGS
+------------------------------------------------------- */
+h1, h2, h3 {font-family: mostra-nuova,sans-serif;
+font-style: normal;
+font-weight: 800; text-transform:uppercase; letter-spacing: 2px; }
+h1 { font-size: 2em; line-height: 1.4em; }
+h2 { font-size: 3.5em; margin-bottom: 10px; line-height: 55px;  }
+h3 { font-size: 1.55em; }
+h4 { font-size: 1.4em; line-height: 1.6em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1.1em;  }
+
+.textwidget h2 {
+font-size: 2em;
+padding: 10px 15px;
+}
+
+/* LISTS
+------------------------------------------------------- */
+ul { margin: 0 15px; }
+li ul, li ol { margin-bottom: 0; }
+ul ul, ol ol, ul ol, ol ul { margin-bottom: 0; }
+ol { list-style-type: decimal; margin: 0 20px 10px; }
+ul { list-style-type: disc; margin: 0 15px 10px;}
+ul ul { list-style-type: circle; }
+ul ul ul { list-style-type: square; }
+dt { font-weight: 700; }
+
+/* TEXT ELEMENTS
+------------------------------------------------------- */
+dl dt { margin: 10px 0 0; }
+dl dt, dl dd { padding: 6px; }
+address { font-style: italic; }
+select { margin: 0 0 1em; width: 100%; }
+legend { font-size: 1.6em; padding: 0 10px; }
+fieldset { margin: 1.6em 0 0; padding: 0 20px 10px; }
+abbr[title], acronym[title], dfn[title] { cursor: help; }
+blockquote { font-style: italic; margin: 15px 10px 15px; padding: 0 10px; }
+
+strong { font-weight: 700; }
+em, dfn, cite { font-style: italic; }
+dfn { font-weight: 700; }
+small { font-size: .9em; }
+big { font-size: 1.2em; }
+sup { bottom: 0.3em; font-size: .9em; position: relative; vertical-align: baseline; }
+sub { top: 0.3em; font-size: .9em; position: relative; vertical-align: baseline; }
+del { text-decoration: line-through; }
+ins { text-decoration: underline; }
+
+code { line-height: 15px; padding: 0 3px; }
+pre { line-height: 15px; overflow: auto; padding: 10px; white-space: pre; }
+var, kbd, samp, code, pre { font: .9em Monaco, monospace, Courier, "Courier New"; }
+kbd { font-weight: 700; }
+samp, var { font-style: italic; }
+
+/* IMAGES
+------------------------------------------------------- */
+img.alignleft { clear: none; float: left; margin: 7px 14px 0 0; }
+img.alignright { clear: none; float: right; margin: 7px 0 0 14px; }
+img.aligncenter { display: block; float: none; margin: 10px auto; text-align: center; }
+
+.wp-caption { max-width: 568px; margin: 10px auto; padding: 10px 5px 8px; text-align: center; }
+.wp-caption-text { margin: 5px 0 0; }
+.wp-caption img { margin: 0 auto; max-width: 558px; padding: 0; }
+.wp-caption.alignleft { clear: none; float: left; margin: 7px 14px 0 0; }
+.wp-caption.alignright { clear: none; float: right; margin: 7px 0 0 20px; }
+.wp-caption.aligncenter { display: block; float: none; margin: 10px auto; text-align: center }
+.wp-smiley { margin: 0 !important; max-height: 13px; }
+
+/* ALIGNMENT
+------------------------------------------------------- */
+.alignleft { float: left; margin: 0 0 10px; }
+.alignright { float: right; margin: 0 0 10px; }
+.nav-newer { float: right; margin: 0 0 10px; }
+.nav-previous { float: left; margin: 0 0 10px; }
+
+/* BUTTONS / FORMS
+------------------------------------------------------- */
+button { cursor: pointer; padding: 6px; }
+input { font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1em; padding: 6px; }
+textarea { font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 1em; overflow: auto; padding: 6px; }
+
+/* TABLES
+------------------------------------------------------- */
+table { text-align: left; width: 100%; }
+caption { font-weight: 700; text-align: left; }
+table thead tr th { font-weight: 700; }
+th, td { padding: 8px 14px; }
+
+/* SPECIAL CLASSES
+------------------------------------------------------- */
+.description { margin: 15px 0 15px; }
+.description p { padding: 0 0 2px; margin: 5px 10px; }
+.alert, .download, .error, .note, .warning { margin: 20px 0 15px; padding: 6px 9px; }
+.home .alert, .home .download, .home .error, .home .note, .home .warning { margin: 0 0 15px; }
+.single .alert, .single .download, .single .error, .single .note, .single .warning { margin: 10px 0 15px; }
+.hentry .button { display: block; float: left; margin: 0 5px 10px 0; padding: 8px 10px; text-align: center; }
+.button, .submit-comment, .reset-comment { margin-right: 5px; padding: 7px 15px 8px 15px; width: 100px; }
+.button:hover, .submit-comment:hover, .reset-comment:hover { cursor: pointer; }
+
+/* SUPERFISH
+------------------------------------------------------- */
+.menu, .menu * { list-style: none; margin: 0; padding: 0; }
+.menu { line-height: 1; position: relative; z-index: 999; }
+.menu a { display: block; padding: 9px 13px 10px; position: relative; }
+.menu ul { position: absolute; top: -999em; width: 14em; /* LEFT OFFSET OF SUBMENUS NEED TO MATCH (SEE BELOW) */ }
+.menu ul li { width: 100%; }
+.menu ul ul { margin-top: 0; }
+.menu li:hover { visibility: inherit; /* FIXES IE7 'STICKY BUG' */ }
+.menu li { float: left; position: relative; }
+.menu li:hover ul, .menu li.sfHover ul { left: 0; top: 2.7em; /* MATCH TOP UL LIST ITEM HEIGHT */ z-index: 99; }
+.menu li:hover li ul, ul.menu li.sfHover li ul { top: -999em; }
+.menu li li:hover ul, ul.menu li li.sfHover ul { left: 14em; /* MATCH UL WIDTH */ top: 0; }
+.menu li li:hover li ul, ul.menu li li.sfHover li ul { top: -999em; }
+.menu li li li:hover ul, ul.menu li li li.sfHover ul { left: 14em; /* MATCH UL WIDTH */ top: 0; }

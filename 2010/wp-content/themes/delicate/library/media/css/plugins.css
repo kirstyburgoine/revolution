@@ -1,0 +1,13 @@
+/* COMMENT LICENSE
+------------------------------------------------------- */
+.comment_license { margin: 20px 0 0; }
+
+/* SUBSCRIBE TO COMMENTS
+------------------------------------------------------- */
+.subscribe-to-comments { margin: 20px 0 0; }
+
+/* WP PAGENAVI
+------------------------------------------------------- */
+.wp-pagenavi { margin: 30px 0 35px 25px; text-align: right; }
+.wp-pagenavi .pages { float: left; }
+.wp-pagenavi a, .wp-pagenavi .current, .wp-pagenavi a:hover { font-weight: 400; margin: 0 3px 0; padding: 8px 10px; text-decoration: none; }

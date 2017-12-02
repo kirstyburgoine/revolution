@@ -1,0 +1,36 @@
+/*  
+Theme Name: Delicate
+Version: 1.0
+Description: Delicate is the combination of a blog and a portfolio with many advanced features. The homepage features a jQuery powered slideshow to showcase your latest projects.
+Author: Matt Adams
+Author URI: http://www.itsmattadams.com/
+Tags: custom-widgets, fixed-width, sticky-post, microformats, theme-options, threaded-comments
+*/
+
+/* RESET
+------------------------------------------------------- */
+@import url('library/media/css/reset.css');
+
+/* GRID
+------------------------------------------------------- */
+@import url('library/media/css/grid.css');
+
+/* BASE
+------------------------------------------------------- */
+@import url('library/media/css/base.css');
+
+/* PLUGINS
+------------------------------------------------------- */
+@import url('library/media/css/plugins.css');
+
+/* PRETTY PHOTO
+------------------------------------------------------- */
+@import url('library/media/css/prettyphoto.css');
+
+/* SCREEN
+------------------------------------------------------- */
+@import url('library/media/css/screen.css');
+
+/* WIDGETS
+------------------------------------------------------- */
+@import url('library/media/css/widgets.css');

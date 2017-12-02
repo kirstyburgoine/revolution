@@ -1,0 +1,64 @@
+/* Theme Options */
+#theme-options { font: 13px/1.5 Georgia, Times, "Times New Roman", serif; margin: 0 5px 10px !important; width: 788px; }
+#theme-options .widefat { margin: 0 0 30px; }
+
+/* Admin Title */
+#admin-title h2 { font: 400 italic 35px/1.5 Georgia, "Times New Roman", Times, serif; margin: 10px 5px 15px; }
+#admin-title #version-number { color: #FF4B33; font: 400 16px/1.5 Georgia, "Times New Roman", Times, serif; padding: 0 5px 0; }
+
+/* Hyperlinks */
+#theme-options a:link { text-decoration: none; }
+#theme-options a:active { text-decoration: none; }
+#theme-options a:hover { text-decoration: none; }
+
+/* Messages */
+.no-js #success, .no-js #warning { margin-left: 10px; padding: 6px 12px; width: 753px; }
+#success, #warning { border-radius: 0; font: 700 12px Arial, sans-serif; -khtml-border-radius: 0; margin: 15px 3px 30px; -moz-border-radius: 0; padding: 6px 12px; -webkit-border-radius: 0; width: 756px; }
+#success { background: #B4EFAB !important; border: 1px solid #8BE57E; color: #337158; }
+#warning { background: #FEB1B1 !important; border: 1px solid #FE9090; color: #820101; }
+
+/* Tabs */
+.no-js #tabs { display: none; }
+#tabs { margin: 0 3px 30px; float: left; width: 200px; }
+#tabs li { font: 18px Arial, Helvetica Neue, Helvetica, sans-serif; margin: 0 0 10px; }
+#tabs a { background: #EEE; border: 1px solid #BBB; color: #333; cursor: pointer; display: block; padding: 10px 12px; text-decoration: none; }
+#tabs a:hover { background: #DDD; color: #333; }
+#tabs .ui-tabs-selected a { background: #333; border-color: #000; color: #FFF; }
+
+/* Option Wrap */
+.no-js .option-wrap { float: none; width: 780px; }
+.option-wrap { float: right; margin: 0 3px 0; width: 560px; }
+.option-wrap .main-title { color: #333; font: 18px Arial, Helvetica Neue, Helvetica, sans-serif; margin: 1px 8px 0; text-shadow: 0 0; }
+.option-wrap .sub-title { color: #666; font: 700 14px Arial, Helvetica Neue, Helvetica, sans-serif; margin: 0 10px 0 0; vertical-align: 0; }
+
+/* Option Content */
+.option-content { padding: 15px 12px; }
+.option-desc { font-size: 12px; font-style: italic; line-height: 20px; margin: 10px 0 3px; }
+
+/* Basic Alignments */
+.alignleft { float: left; }
+.alignright { float: right; }
+
+/* Forms */
+.heading-submit, .heading-submit:active, .heading-submit:hover { padding: 2px 8px 3px !important; margin: 1px 5px 0 !important; }
+.heading-reset, .heading-reset:active, .heading-reset:hover { padding: 2px 8px 3px !important; margin: 1px 5px 0 !important; }
+.option-content .checkbox { background: none !important; margin: -3px 14px 0 5px; padding: 0 !important; width: 15px; }
+.option-content input { background: #FFF; margin: 10px 15px 0 0; padding: 6px; width: 100%; }
+.option-content select { background: #FFF; margin: 0 10px 0 0; padding: 6px; width: 140px; }
+.option-content textarea { background: #FFF; height: 200px; margin: 10px 0 0; overflow: auto; padding: 6px; width: 100%; }
+.option-content input, .option-content select, .option-content textarea { background: #F1F1F1; border-color: #CCC #E6E6E6 #E6E6E6 #CCC; border-width: 1px; }
+.option-content input:focus, .option-content select:focus, .option-content textarea:focus { background: #FFF; }
+
+/* Text Elements */
+.option-content abbr, .option-content acronym, .option-content dfn { border-bottom: 1px dotted #000; }
+.option-content abbr[title], .option-content acronym[title], .option-content dfn[title] { cursor: help; }
+.option-content code { font: 11px/1.4 Consolas, "Andale Mono", Courier, "Courier New", monospace; }
+.option-content label { font-size: 12px; font-style: italic; line-height: 21px; margin: 0 8px 0 0; vertical-align: 0; }
+
+/* Clearing floats without extra markup. */
+.clearfix { display: block; }
+.clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.ie6 .clearfix, .ie7 .clearfix { height: 1%; }
+
+/* Regular clearing, just in case. */
+.clear { clear: both; display: block; height: 0; overflow: hidden; visibility: hidden; width: 0; }

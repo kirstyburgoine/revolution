@@ -1,0 +1,32 @@
+/* ERIC MEYER RESET RELOADED
+------------------------------------------------------- */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border: 0; font-family: inherit; font-size: 100%; font-style: inherit; font-weight: inherit; margin: 0; padding: 0; vertical-align: baseline; }
+
+/* REMOVES DOTTED LINE ON FOCUS
+------------------------------------------------------- */
+:focus { outline: none; }
+
+/* TABLES STILL NEED 'CELLSPACING="0"' IN THE MARKUP
+------------------------------------------------------- */
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+table, td, th { vertical-align: middle; }
+
+/* REMOVE POSSIBLE QUOTE MARKS (") FROM <q>, <blockquote>
+------------------------------------------------------- */
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+/* REMOVES BORDER ON LINKED IMAGES
+------------------------------------------------------- */
+a img { border: none; }
+
+/* CLEARING FLOATS WITHOUT EXTRA MARKUP
+------------------------------------------------------- */
+.clearfix { display: block; }
+.clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+* html .clearfix { height: 1%; }
+
+/* REGULAR CLEARING, JUST IN CASE!
+------------------------------------------------------- */
+.clear { clear: both; display: block; height: 0; overflow: hidden; visibility: hidden; width: 0; }
