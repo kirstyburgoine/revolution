@@ -1,0 +1,37 @@
+/*IE only fixes*/
+.site-container {
+	width: 960px;
+	padding: 0;
+}
+
+ul,
+ol {
+	padding-left: 1.6em;
+	margin-left: 0;
+}
+
+.twotwo .element,
+.quattro .element {
+	width: 22% !important;
+	margin-right: 4% !important;
+}
+
+.element.last,
+.last {
+	margin-right: 0 !important;
+}
+
+.twotwo .double {
+	width: 40% !important;
+}
+
+header nav ul {
+	float: right;
+}
+
+header nav ul li {
+	display: block;
+	min-width: 4em;
+	float: left;
+	width: auto;
+}

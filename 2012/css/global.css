@@ -1,0 +1,729 @@
+/*
+Goldilocks Approach to Responsive Web Design Boilerplate
+
+Author: Design by Front - @designbyfront
+Version: 0.1
+URL: http://www.goldilocksapproach.com
+----------------------------------------------------------------------------------------
+
+CONTENTS - GLOBAL.CSS
+-----------------------------------------
+1. RESET
+2. ROOT
+3. CORE TYPOGRAPHY
+4. LINKS
+5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+7. BROWSER AND NON-SEMANTIC STYLING
+
+CONTENTS - LAYOUT.CSS
+-----------------------------------------
+8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+
+*/
+
+
+/* 1. RESET
+----------------------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size:100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  }
+  
+  
+/* 2. ROOT
+----------------------------------------------------------------------------------------*/
+html { 
+  overflow-y: scroll;
+  background: #FFF;
+  }
+
+/* /ht Ethan Marcotte - http://front.ie/l8rJaA */
+img, embed, object, video { max-width: 100%; }
+.ie6 img.full, .ie6 object.full, .ie6 embed, .ie6 video { width: 100%; }
+
+
+body {
+	background-color:#f9f6e8;
+	
+}
+
+a img {
+	border: none;
+}
+
+
+/* 3. CORE TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+
+/* Mark Hurrell - http://blog.mhurrell.co.uk/post/2946358183/updating-the-helvetica-font-stack */
+body {
+  	font-family: "chaparral-pro", Georgia, Times, "Times New Roman", Serif;
+	font-style: normal;
+	font-weight: 400;
+  	font-size: 1em; 
+  	line-height: 1.618em;
+  	color: #33363b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0.809em;
+	line-height: 1em;
+	font-style: normal;
+	font-weight: 700;
+	
+	}
+
+p, ul, ol, dl, blockquote, pre {
+    font-size: 1em;
+    line-height: 1.618em;
+    margin-bottom: 1.618em; 
+    max-width: 30em; /* Optimal width for long-form text */
+  }
+    
+ul { list-style: disc outside none; margin-left: 1.618em; }
+ol { list-style: decimal outside none; margin-left: 1.618em; }
+nav ul, nav ol { list-style: none; margin: 0; padding: 0;}
+
+b, strong { font-weight: bold; }
+i, em { font-style: italic; }
+small { font-size: 80%; }
+
+pre { white-space: pre-line; word-wrap: break-word;}
+
+hr {height: 0; border-top: 1px solid #e4e4e4;}
+
+/* 4. LINKS
+----------------------------------------------------------------------------------------*/
+a, a:visited { outline: none; color: #c1503e; text-decoration: underline; }  
+a:hover { outline: none; color: #33363b; }  
+a:active, a:focus { outline: none; }
+
+
+/* 5. GLOBAL LAYOUT & GLOBAL CUSTOM TYPOGRAPHY
+----------------------------------------------------------------------------------------*/
+h1 {
+	font-size: 218%;
+}
+
+h2 {
+	font-size: 164%;
+}
+
+h3 {
+	font-size: 145%;
+}
+
+h4 {
+	font-size: 118%;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+h6 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.major-title {
+	font-family: "futura-pt", Freesans, Helmet, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 218%;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+
+
+.sub {
+	color: #999;
+	font-size: 118%;
+}
+
+a.button {
+	display: inline-block;
+	color: #fff;
+	background: #c1503e;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "futura-pt", Freesans, Helmet, sans-serif;
+	font-weight: 700;
+}
+
+a:hover.button,
+a:focus.button,
+a:active.button {
+	background: #fff !important;
+	color: #c1503e;
+}
+
+
+/* 5a. HEADER */
+header {
+	background: #33363b;
+	width: 100%;
+	padding:0;
+	margin-bottom: 1.618em;
+	overflow: hidden;
+}
+
+header .site-container {
+	padding: 0;
+}
+
+header .header-block {
+	width: 100%;
+	text-align: center;
+	padding: 0.33em 0;
+	border-bottom: 1px solid #000;
+	margin: 0;
+}
+
+header h1 {
+	margin-bottom: 0.2em;
+}
+
+header h1 a {
+	display: block;
+	width: 252px;
+	height: 47px;
+	background: transparent url(../images/revolution-logo.png) top left no-repeat;
+	background-size: 252px 47px;
+	text-indent: 200%;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/* Event date change 13/04/2012 by Martin */
+h2.event-date {
+	text-transform: uppercase;
+	color: #F9F6E8;
+	margin: 0 auto;
+	max-width: 252px;
+	font-family: "futura-pt", Freesans, Helmet, sans-serif;
+	font-weight: 300;
+	text-align: center;
+	font-size: 0.9em;
+	letter-spacing: 0.35em;
+	text-indent: 45px;
+}
+
+/* 5b. PRIMARY NAVIGATION */
+nav[role="navigation"] {
+	font-family: "futura-pt", Freesans, Helmet, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	margin: 0 auto;
+	max-width: 60em;
+	text-transform: uppercase;
+	width: 100%;
+
+}
+
+nav[role="navigation"] a {
+	color: #fff;
+	text-decoration: none;
+
+}
+
+nav[role="navigation"] ul {
+	max-width: 100%;
+	text-align: center;
+}
+
+nav[role="navigation"] ul li a {
+	display: block;
+	margin: 0;
+	padding: 0.33em 0.66em;
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+nav[role="navigation"] ul li a:hover,
+nav[role="navigation"] ul li a:focus,
+nav[role="navigation"] ul li a:active,
+.current {
+	background: #000;
+}
+
+/* 5c. SPEAKERS */
+.home .speakers {
+	width: 100%;
+	margin-bottom: 3em;
+	padding-top: 1em;
+	overflow: hidden;
+
+}
+
+.home .speaker {
+	width: 46%;
+	margin-right: 4%;
+	float: left;
+	position: relative;
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.home .speaker-details {
+	background: #efece0;
+	border-bottom: 0.33em solid #c1503e;
+	padding: 5em 2% 1em;
+	min-height: 11em;
+	/* margin: 0 5%; - Changed by Kirsty 11.04.12 */
+	margin: 0;
+}
+
+.home .speaker a {
+	display: block;
+}
+
+.home .speaker:hover .speaker-details,
+.home .speaker:focus .speaker-details,
+.home .speaker:active .speaker-details {
+	border-color: #33363b;
+	cursor: pointer;
+}
+
+.speaker .meta {
+	color: #777;
+}
+
+.home .speaker .meta {
+	font-size: 0.875em;
+
+}
+.speaker h3 {
+	margin-bottom: 0.33em;
+}
+
+.home .speaker a {
+	text-decoration: none;
+}
+
+.home .speaker p {
+	margin: 0 0.5em 0.5em;
+}
+
+.home .speaker img {
+	margin-bottom: -4em;
+	position: relative;
+}
+
+.home .speaker .role {
+	text-transform: uppercase;
+	font-family: "futura-pt", Freesans, Helmet, sans-serif;
+	color: #777;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+/*.speaker:last-child {
+	margin-right: 0;
+}*/
+
+.speakers-page .speaker {
+	position: relative;
+}
+
+.speakers-page .photo {
+	text-align: center;
+}
+
+.speakers-page .photo img {
+	max-width: 100%;
+}
+
+hr.seperator {
+	height: 29px;
+	width: 100%;
+	background: transparent url(../images/star-seperator.png) center center no-repeat;
+	border-width: 0;
+	margin: 2.5em 0 3em;
+	clear: both;
+	border: none;
+}
+
+.vanity-links a {
+	line-height: 1.5em; /* 24px */
+	padding-left: 1.2em;
+	margin-right: 1em;
+	background-size: 16px;
+}
+
+.twitter {
+	background: transparent url(../images/twitter.png) 0 0 no-repeat;
+}
+
+.website {
+	background: transparent url(../images/website.png) 0 0 no-repeat;
+}
+
+/* 5d. ABOUT BLURB */
+
+.about-container {
+	overflow: hidden;
+	padding: 2em 0 0;
+}
+	
+.about,
+.who {	
+	float: left;
+}
+
+.about-title {
+	background: #2c2c2c url(../images/placeholder-big.jpg) center no-repeat;
+	color: #fff;
+	min-height: 5em;
+	line-height: 5em;
+	margin-bottom: 0;
+}
+
+.about p:nth-child(2) {
+	font-size: 1.125em;
+}
+
+.about-team .sub {
+	font-size: 1em;
+}
+
+/* 5e. WHO */
+
+.who img {
+	margin-bottom: 1em;
+	background: #e3e3d7;
+	padding: 0.33em;
+	border: 1px solid #ddd;
+}
+
+/* 5f. PROPOSITION* */
+
+.home-header {
+	background: transparent url(../images/evolution.png) center no-repeat;	
+	overflow: hidden;
+}
+
+.proposition p {
+	max-width: 100%;
+	margin-bottom: 0;
+}
+
+.proposition {
+	margin: 0 auto 1em;
+	padding: 1em 0;
+	width: 90%;
+}
+
+.proposition .major-title {
+	font-size: 300%;
+	margin: 0.2em 0 0.5em;
+	color: #c1503e;
+}
+
+.proposition .major-title b {
+	opacity: 1.0;
+	-webkit-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+	letter-spacing: -2px;
+}
+
+.proposition .major-title i {
+	font-weight: 300;
+	font-style: normal;
+}
+
+.proposition .major-title span {
+	display: block;
+}
+
+.proposition .major-title .two {
+	font-size: 1.8em;
+	line-height: 0.66em;
+	background: transparent url(../images/star-seperator.png) bottom center no-repeat;
+	padding-bottom: 1.5em;
+}
+
+.proposition .major-title .one {
+	font-size: 0.75em;
+}
+
+.proposition .sub {
+	font-size: 118%;
+	color: #999;
+}
+
+.proposition:hover .major-title b {
+	opacity: 0.1;
+	-webkit-transition: opacity .5s ease-in-out;
+	transition: opacity .5s ease-in-out;
+}
+
+p.big-intro {
+	font-style: normal;
+	text-align: center;
+	font-size: 1.125em;
+	max-width: 24em;
+	margin: 0 auto;
+	font-style: italic;
+}
+
+.proposition .button {
+	display: inline;
+}
+
+.credit {
+	text-align: center;
+	color: #999;
+}
+
+
+/* 5g. SPONSORS */
+.sponsors {
+	padding: 1em 0 0;
+	overflow: hidden;
+}
+
+.site-container.sponsors-container {
+	padding-top: 4em;
+	background: transparent url(../images/star-seperator.png) top center no-repeat;
+	overflow: hidden;
+}
+
+
+.sponsors .sponsor {
+	display: block;
+	text-align: center;
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	margin-bottom: 1em;
+	background: #fff;
+	height: 7em;
+	line-height: 7em;
+}
+
+
+
+/* 5h. LOCATION */
+
+
+.venue-information {
+	width: 100%:
+	float: left;
+}
+
+.the-venue .location-map {
+	background: #C1503E;
+	padding-bottom: 0.5em;
+	color: #fff;
+}
+
+
+.location-map a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.location-map img {
+	margin-bottom: 0.5em;
+}
+
+.image {
+	margin-bottom: 2em;
+}
+
+.location-map p {
+	padding: 0 5%;
+	margin-bottom: 0.5em;
+}
+
+.the-venue .description,
+.the-venue .image {
+	float: left;
+}
+
+.where-to-stay {
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+
+.hotel.vcard h3 {
+	font-size: 1.2em;
+}
+
+.hotel.vcard p {
+	margin-bottom: 0.5em;
+}
+
+/* 5i SCHEDULE */
+.schedule {
+	background: #eee9dd;
+	background:rgba(0,0,0,0.05);
+	overflow: hidden;
+	margin-bottom: 3em;
+}
+
+.schedule a {
+	text-decoration: none;
+}
+
+.occurence {
+	float: left;
+	width: 94%;
+	padding: 1em 3%;
+	border-bottom: 1px solid #F9F6E8;
+	position: relative;
+	z-index: 5;
+}
+
+.occurence time {
+	width: 15%;
+	float: left;
+	font-family: "futura-pt", Freesans, Helmet, sans-serif;
+	color: #777;
+}
+
+.occurence p,
+.occurence h2 {
+	width: 80%;
+	float: left;
+	margin-bottom: 0;
+	margin-left: 5%;
+}
+
+.occurence .talk-title {
+	margin-left: 15%;
+	margin-top: 1em;
+	font-style: italic;
+	color: #777;
+}
+
+.occurence.speaker1,
+.occurence.speaker2,
+.occurence.speaker3 {
+	border-bottom: 1px solid #C1503E;
+	min-height: 7em; /* Added by Kirsty - 11.04.12 */
+}
+
+.occurence img {
+	display: none;
+}
+
+/* 5j. ABOUT */
+.about-team {
+	width: 100%;
+}
+
+/* 5k. BUY */
+.buy-call {
+	text-align: center;
+	margin-bottom: 6em;
+	overflow: hidden;
+}
+.fat-button {
+	font-size: 1.4em;
+	text-align: center;
+	padding: 1em;
+}
+
+a:hover.fat-button,
+a:focus.fat-button,
+a:active.fat-button {
+	color: #fff;
+	background-color: #33363b !important;
+}
+
+.fat-button span.where {
+	font-weight: normal;
+	display: block;
+	font-size: 0.75em;
+}
+.fat-button i {
+	font-size: 6em;
+	font-style: normal;
+	display: block;
+	line-height: 1em;
+}
+.fat-button b {
+	font-size: 0.75em;
+	display: block;
+	font-weight: normal;
+}
+
+.fat-button .pound {
+	color: #a64535;
+}
+
+/* 5h. FOOTER */
+footer {
+	background: #33363b;
+	color: #fff;
+	overflow: hidden;
+	margin-top: 2em;
+	padding-top: 3em;
+}
+
+footer ul {
+	list-style: none outside none;
+}
+
+footer .credit {
+	width: 100%;
+	background: #000;
+	padding: 1em 0;
+	margin-top: 1em;
+}
+
+footer h2 {
+	font-weight: normal;
+}
+
+/* 6. CUSTOM LAYOUT & TYPOGRAPHY (Baby bear)
+----------------------------------------------------------------------------------------*/
+
+.site-container,
+#container {
+    padding: 0.809em;
+    max-width: 30em;
+    margin: auto;
+    overflow: hidden;
+  }
+
+.site-container {
+	max-width: 60em;
+}
+
+aside { width: 100%; }
+
+
+/* 7. BROWSER AND NON-SEMANTIC STYLING
+----------------------------------------------------------------------------------------*/
+.cf:before, .cf:after { content: ""; display: block; }
+.cf:after { clear: both; }
+.ie6 .cf { zoom: 1 }

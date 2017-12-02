@@ -1,0 +1,276 @@
+/* 8. CUSTOM LAYOUT & TYPOGRAPHY (Daddy bear)
+----------------------------------------------------------------------------------------*/
+#container {
+	padding: 1.618em;
+	margin: 0 auto; 
+	max-width: 60em;
+}
+
+
+header {
+	padding: 1.618em 0;
+}
+
+header .header-block {
+	border-bottom: none;
+	float: left;
+	width: 27%;
+}
+
+nav[role="navigation"] {
+	width: 72%;
+	margin: 0 auto;
+	float: right;
+	text-align: right;
+}
+
+nav[role="navigation"] ul {
+	text-align: right;
+}
+
+nav[role="navigation"] ul li {
+	display: inline-block;
+	min-width: 4em;
+}
+	
+nav[role="navigation"] ul li a {
+	display: inline-block;	
+	border-bottom: none;
+	margin-top: 0.8em;
+}
+
+a.button {
+	padding: 0.33em 0.66em;
+}
+
+.proposition {
+	width: 75%;
+	margin: 3em auto 4em;
+}
+
+.proposition .major-title .two {
+	font-size: 1.8em;
+	line-height: 0.66em;
+	letter-spacing: -2px;
+	padding-bottom: 0.75em;
+}
+
+.proposition .major-title b {
+	letter-spacing: -5px;
+}
+
+.home .speaker {
+	margin-bottom: 2em;
+}
+
+.home .speaker .meta {
+	font-size: 1em;
+}
+
+.home .speaker p {
+	margin: 0 1.5em 0.5em;
+}
+
+.speakers-page .description {
+	margin-left: 24em;
+}
+
+.speakers-page .photo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20em;
+}
+
+
+
+.about,
+.who {
+	width: 47%;
+	max-width: 28em;
+}
+
+.about {
+	margin-right: 6%;
+}
+
+.sponsors .sponsor {
+	width: 17%;
+	margin: 0 1.5% 1em 1.5%;
+	border: 1px solid #e4e4e4;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a:hover.sponsor {
+	border-color: #C1503E;
+}
+
+.the-venue .image {
+	width: 40%;
+}
+
+.the-venue .description {
+	width: 54%;
+	margin-left: 6%;
+}
+
+
+.schedule {
+	width: 70%;
+	float: left;
+}
+p.intro {
+	width: 25%;
+	float: right;
+}
+
+.occurence time {
+	width: 10%;
+	margin-right:0;
+}
+
+/*.occurence p,*/
+.occurence h2 {
+	width: 85%;
+}
+
+.occurence .talk-title {
+	margin-left: 15%;
+	width: 60%; /* Added by Kirsty - 11.04.12 */
+}
+
+.occurence img {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	z-index: 10;
+	width: 105px;
+	height: 130px;
+}
+
+
+.twotwo .element,
+.quattro .element {
+	width: 22%;
+	float: left;
+	margin-right: 4%
+}
+
+.twotwo .element:last-child,
+.quattro .element:last-child {
+	margin-right: 0;
+}
+
+.twotwo .double {
+	width: 46%;
+}
+
+
+
+.col1,
+.col2 {
+	width: 45%;
+	float: left;
+}
+
+.col2 {
+	margin-left: 10%;
+}
+
+
+#galleria{ width: 100%; height: 600px; background: #000; }
+
+
+/* 9. CUSTOM LAYOUT & TYPOGRAPHY (Mummy bear)
+----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 30em) and (max-width: 63.236em) {
+
+	#container { width: 30em; }
+	
+	header .header-block {
+		width: 100%;
+		margin-bottom: 0.66em;
+	}
+	
+	nav[role="navigation"] {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	nav[role="navigation"] ul {
+		text-align: center;
+	}
+	
+	.proposition .major-title .two {
+		padding-bottom: 1em;
+	}
+	
+	.speaker .meta {
+		font-size: 0.875em;
+	}
+	
+	.speakers-page .description {
+		margin-left: 12em;
+	}
+	
+	.speakers-page .photo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 10em;
+	}
+	
+	.occurence time {
+		width: 10%;
+		
+	}
+	
+	.occurence p {
+		margin-left: 0;
+	}
+	
+	.occurence h2 {
+		width: 90%;
+		margin-left: 0;
+	
+	}
+	
+	.occurence .talk-title {
+		margin-left: 10%;
+		width: 55%; /* Added by Kirsty - 11.04.12 */
+	}
+	
+	.schedule {
+		width: 94%;
+		float: left;
+	}
+	p.intro {
+		width: 100%;
+		float: left;
+	}
+
+
+	#galleria{ height: 450px; }
+	
+}
+
+@media screen and (min-width: 30em) and (max-width: 42em) {
+	.home .speaker {
+		width: 46%;
+	}
+
+	
+
+}
+
+
+@media screen and (max-width: 29.995em) {
+
+#galleria{ height: 300px; }
+}
+
+

@@ -1,0 +1,18 @@
+header h1 a {
+	background-image: url(../images/revolution-logo@2.png);
+}
+
+hr.seperator,
+.proposition .major-title .two,
+.site-container.sponsors-container {
+	background-image: url(../images/star-seperator@2.png);
+	background-size: 320px 29px;
+}
+
+.twitter {
+	background-image: url(../images/twitter@2.png);
+}
+
+.website {
+	background-image: url(../images/website@2.png);
+}
