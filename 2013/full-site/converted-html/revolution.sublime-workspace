@@ -1,0 +1,250 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strto",
+				"strtoupper"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Add Repository"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kirstyburgoine/Sites/Fresh TL/TeamPoint/kb-website-TO-GO-LIVE/wp-content/themes/teampoint/front-page.php",
+		"/Users/kirstyburgoine/Downloads/index.php",
+		"/Users/kirstyburgoine/Downloads/index (2).php",
+		"/Users/kirstyburgoine/Sites/Biopharma/bps-header.php",
+		"/Users/kirstyburgoine/Sites/Biopharma/btl-header.php",
+		"/Users/kirstyburgoine/Sites/Pollys Parlour/footer.php",
+		"/Users/kirstyburgoine/Sites/Pollys Parlour/header.php",
+		"/Users/kirstyburgoine/Sites/Ransfords/kb-website/Ransfords/footer.php",
+		"/Users/kirstyburgoine/Sites/Ransfords/kb-website/Ransfords/header.php",
+		"/Users/kirstyburgoine/Sites/Pollys Parlour/style.css",
+		"/Users/kirstyburgoine/Sites/Pollys Parlour/js/scripts.js",
+		"/Users/kirstyburgoine/Sites/Ransfords/kb-website/Ransfords/template-gallery.php",
+		"/Users/kirstyburgoine/Dropbox/jquery.cycle.js",
+		"/Users/kirstyburgoine/Sites/Woods/website-live/header.php",
+		"/Users/kirstyburgoine/Sites/Jim Hawkins/website-LIVE/style.css",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/template-travellers.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/header.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/content-search.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/search.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/searchform.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/www.companywatch.net/page/news-334.html",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/content.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/index.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/twentytwelve/functions.php",
+		"/Users/kirstyburgoine/Sites/Visceral Business/kb-testarea/wp-content/themes/visceral-business/style.css",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/category.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/content-page.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/page.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/archive.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/company-watch.sublime-project",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/style.css",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/twentytwelve/style.css",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/sidebar.php",
+		"/Volumes/PROJECTS/Sites/Fresh-TL/FreshTL/kb-website-TO-GO-LIVE/wp-content/themes/fresh-v1/parts/carousel-header.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/functions.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/attachment.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/company-watch/footer.php",
+		"/Volumes/PROJECTS/Sites/Team Prime/website-TO-GO-LIVE/wp-content/themes/parenttheme/style.css",
+		"/Users/kirstyburgoine/revolution13/templates/tickets.liquid",
+		"/Users/kirstyburgoine/revolution13/templates/terms.liquid",
+		"/Users/kirstyburgoine/Sites/Companywatch/www.companywatch.net/page/home.html",
+		"/Volumes/PROJECTS/Sites/Fresh-TL/FreshTL/kb-website-TO-GO-LIVE/wp-content/themes/fresh-v1/parts/functions.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-content/themes/mixture.json",
+		"/Users/kirstyburgoine/Sites/Visceral Business/Visceral/www/wordpress/wp-content/themes/visceral-business/404.php",
+		"/Volumes/PROJECTS/Sites/Team Prime/website-TO-GO-LIVE/wp-content/themes/team-prime/content-header.php",
+		"/Volumes/PROJECTS/Sites/Woods Brewery/kb-TO-GO-LIVE/wp-content/themes/woods/header.php",
+		"/Users/kirstyburgoine/Sites/Companywatch/kb-website/wp-config.php",
+		"/Users/kirstyburgoine/Sites/Skills Match/wp-content/themes/shropshire-volunteer/page-82.php",
+		"/Users/kirstyburgoine/Sites/Skills Match/wp-content/themes/shropshire-volunteer/sidebar.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/rockwatch/archive.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/rockwatch/functions.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/twentytwelve/page.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/rockwatch/style.css",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/rockwatch/content-page.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/rockwatch/category.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/twentytwelve/single.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/rockwatch/content.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/rockwatch/footer.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/rockwatch/header.php",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wp-content/themes/mixture.json",
+		"/Users/kirstyburgoine/Sites/Rockwatch/wordpress/wp-config.php",
+		"/Users/kirstyburgoine/Sites/Swancote/landing-page/index.html",
+		"/Users/kirstyburgoine/Sites/Swancote/landing-page/style.css",
+		"/Users/kirstyburgoine/revolution13/templates/schedule.liquid",
+		"/Users/kirstyburgoine/mixture.json",
+		"/Users/kirstyburgoine/revolution13/mixture.json",
+		"/Users/kirstyburgoine/revolution13/templates/includes/head.liquid",
+		"/Users/kirstyburgoine/revolution13/templates/venue.liquid",
+		"/Users/kirstyburgoine/revolution13/templates/fringe.liquid",
+		"/Users/kirstyburgoine/revolution13/templates/about.liquid",
+		"/Users/kirstyburgoine/revolution13/.gitignore",
+		"/Users/kirstyburgoine/revolution13/templates/location.liquid",
+		"/Users/kirstyburgoine/revolution13/assets/huge.scss",
+		"/Users/kirstyburgoine/revolution13/templates/index.liquid",
+		"/Users/kirstyburgoine/revolution13/templates/includes/footer.liquid",
+		"/Users/kirstyburgoine/revolution13/templates/includes/sponsors.liquid",
+		"/Users/kirstyburgoine/revolution13/templates/sponsors.liquid",
+		"/Users/kirstyburgoine/Sites/Revolution/revolution13/templates/tickets.liquid",
+		"/Users/kirstyburgoine/Sites/Revolution/revolution13/.gitignore",
+		"/Users/kirstyburgoine/Sites/Revolution/revolution13/templates/includes/head.liquid",
+		"/Users/kirstyburgoine/Sites/Revolution/demo-attending-master/assets/js/attendees.js",
+		"/Users/kirstyburgoine/Sites/Revolution/demo-attending-master/templates/sign-up.liquid",
+		"/Users/kirstyburgoine/Sites/Revolution/demo-attending-master/templates/layouts/layout.liquid",
+		"/Users/kirstyburgoine/Sites/Revolution/demo-attending-master/templates/includes/scripts.liquid",
+		"/Users/kirstyburgoine/Sites/Revolution/demo-attending-master/templates/index.liquid",
+		"/Users/kirstyburgoine/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/kirstyburgoine/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kirstyburgoine/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img",
+			"get_stylesheet_directory_uri",
+			"../images",
+			"rockwatch_setup",
+			"rockwatch",
+			"rands"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true
+}
